@@ -6,6 +6,7 @@
 
 ## 📋 Table of Contents
 
+- [Quick Start](#-quick-start)
 - [Introduction](#introduction)
 - [Core Objectives](#core-objectives)
 - [System Performance Requirements](#system-performance-requirements)
@@ -17,8 +18,121 @@
 - [Cost Analysis](#cost-analysis)
 - [90-Day Roadmap](#90-day-roadmap)
 - [Success Metrics](#success-metrics)
-- [Quick Start](#quick-start)
 - [Documentation](#documentation)
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js 18+** and **pnpm** (or npm/yarn)
+- **OpenAI API key** (optional, for AI explanations)
+- **Git** for cloning the repository
+
+### Complete Setup Instructions
+
+Follow these steps to get the project running on your local machine:
+
+#### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/tutorsense-app.git
+cd tutorsense-app
+```
+
+#### 2. Install Dependencies
+
+```bash
+pnpm install
+```
+
+#### 3. Set Up Environment Variables
+
+Create a `.env.local` file in the root directory:
+
+```bash
+touch .env.local
+```
+
+Add the following variables to `.env.local`:
+
+```bash
+# OpenAI API Key (optional, for AI explanations)
+# Get your key from: https://platform.openai.com/api-keys
+# If not provided, the system will use template-based explanations
+OPENAI_API_KEY=sk-xxxx
+
+# Recompute Secret (required for /api/recompute endpoint)
+# Use a strong random string for production
+# This protects the recompute endpoint from unauthorized access
+RECOMPUTE_SECRET=your-secret-string
+
+# Scoring Formula Version (optional, defaults to v2)
+# Options: v1 (baseline) or v2 (current default with retention features)
+SCORE_FORMULA_VERSION=v2
+```
+
+**Notes**:
+
+- **`OPENAI_API_KEY`** is optional - the system will work with template-based explanations if not provided. AI explanations are only generated for at-risk tutors (max 50 per batch).
+- **`RECOMPUTE_SECRET`** is required if you plan to use the `/api/recompute` endpoint. Use a strong random string for production (e.g., `openssl rand -hex 32`).
+- **`SCORE_FORMULA_VERSION`** defaults to `v2` if not specified.
+
+#### 4. Generate Synthetic Data
+
+```bash
+pnpm run generate
+```
+
+This creates `data/tutors.csv` and `data/sessions.csv` with synthetic tutor and session data.
+
+#### 5. Run Scoring Pipeline
+
+```bash
+pnpm run score
+```
+
+This calculates tutor scores, generates explanations, and creates `public/scores.json` and `public/explanations.json`.
+
+#### 6. Start Development Server
+
+```bash
+pnpm run dev
+```
+
+#### 7. View the Dashboard
+
+Open your browser and navigate to:
+
+```
+http://localhost:3000
+```
+
+You should see the TutorSense dashboard with:
+
+- List of tutors with scores, churn risk, and signals
+- Interactive filters (Subject, Score Threshold)
+- Sortable columns (Score, Churn Risk)
+- Clickable tutor rows to view detailed information
+
+### Available Scripts
+
+```bash
+pnpm run generate    # Generate synthetic data
+pnpm run score       # Run scoring pipeline
+pnpm run dev         # Start development server
+pnpm run build       # Build for production
+pnpm run start       # Start production server
+```
+
+### First Steps After Setup
+
+1. **Explore the Dashboard**: View the main table with all tutors
+2. **Try Filtering**: Use the Subject dropdown and Score Threshold slider
+3. **Sort Columns**: Click "Score" or "Churn Risk" headers to sort
+4. **View Details**: Click any tutor row to open the detailed drawer
+5. **Check Trends**: View the 7-day performance trend charts
 
 ---
 
@@ -824,70 +938,6 @@ If system prevents 2 churns/month:
 - Tutor reliability improvement (target: 15% reduction in no-shows)
 - Student satisfaction scores (target: 5-10% improvement)
 - Coaching effectiveness (target: 30% improvement in at-risk tutor scores)
-
----
-
-## Quick Start
-
-### Prerequisites
-
-- Node.js 18+ and pnpm (or npm/yarn)
-- OpenAI API key (optional, for AI explanations)
-- Git repository
-
-### Installation
-
-```bash
-# 1. Clone repository
-git clone <repository-url>
-cd tutorsense-app
-
-# 2. Install dependencies
-pnpm install
-
-# 3. Set up environment variables
-cp .env.example .env.local
-# Add your OPENAI_API_KEY and RECOMPUTE_SECRET
-
-# 4. Generate synthetic data
-pnpm run generate
-
-# 5. Run scoring pipeline
-pnpm run score
-
-# 6. Start development server
-pnpm run dev
-```
-
-### Environment Variables
-
-```bash
-# Required for AI explanations (optional)
-OPENAI_API_KEY=sk-xxxx
-
-# Required for /api/recompute endpoint
-RECOMPUTE_SECRET=your-secret-string
-
-# Optional: Switch scoring formula version
-SCORE_FORMULA_VERSION=v2  # or v1
-```
-
-### Available Scripts
-
-```bash
-pnpm run generate    # Generate synthetic data
-pnpm run score       # Run scoring pipeline
-pnpm run dev         # Start development server
-pnpm run build       # Build for production
-pnpm run start       # Start production server
-```
-
-### First Steps
-
-1. **Generate Data**: Run `pnpm run generate` to create synthetic tutor and session data
-2. **Score Tutors**: Run `pnpm run score` to calculate scores and generate explanations
-3. **View Dashboard**: Open `http://localhost:3000` in your browser
-4. **Explore**: Click tutor rows to see detailed views, try sorting and filtering
 
 ---
 
