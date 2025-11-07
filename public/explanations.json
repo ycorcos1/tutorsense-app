@@ -1,0 +1,802 @@
+{
+  "T015": {
+    "why": "Score 0 reflects critical performance issues across 17 sessions. The tutor is struggling with critical 29% dropout rate, very low 2.3 star rating, high 18% reschedule rate, first session ratings 3.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 50.8%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 29% dropout rate. Additionally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.3 star rating. Finally, scheduling support: provide guidance on scheduling reliability to improve the 18% reschedule rate."
+  },
+  "T044": {
+    "why": "Score 0 reflects critical performance issues across 14 sessions. The tutor is struggling with critical 36% dropout rate, very low 2.0 star rating, high 21% reschedule rate, first session ratings 1.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 70.4%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 36% dropout rate. Additionally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.0 star rating. Finally, scheduling improvement: reinforce scheduling discipline and confirmation procedures to reduce the 21% reschedule rate."
+  },
+  "T067": {
+    "why": "Score 0 reflects critical performance issues across 13 sessions. The tutor is struggling with critical 31% dropout rate, significant 15% tech issue rate, very low 2.3 star rating, excessive 31% reschedule rate, first session dropouts 100%, tutor reschedules 100%, no-shows 15% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 62.9%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 15% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 31% dropout rate. Finally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.3 star rating."
+  },
+  "T091": {
+    "why": "Score 0 reflects critical performance issues across 10 sessions. The tutor is struggling with critical 30% dropout rate, severe 60% tech issue rate, very low 2.0 star rating, excessive 30% reschedule rate, first session ratings 1.0, tutor reschedules 100% in the last period. These patterns across 10 sessions indicate systemic challenges requiring immediate attention. Churn risk is 56.0%.",
+    "suggested_action": "Immediate technical intervention: Conduct equipment audit and provide troubleshooting training to address the 60% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 30% dropout rate. Finally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.0 star rating."
+  },
+  "T153": {
+    "why": "Score 0 reflects critical performance issues across 12 sessions. The tutor is struggling with elevated 25% dropout rate, very low 2.3 star rating, high 17% reschedule rate, first session ratings 2.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 66.5%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 25% dropout rate. Additionally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.3 star rating. Finally, scheduling support: provide guidance on scheduling reliability to improve the 17% reschedule rate."
+  },
+  "T191": {
+    "why": "Score 0 reflects critical performance issues across 5 sessions. The tutor is struggling with elevated 20% dropout rate, significant 20% tech issue rate, very low 1.3 star rating, first session ratings 2.0, first session dropouts 100% in the last period. These patterns across 5 sessions indicate systemic challenges requiring immediate attention. Churn risk is 42.0%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 20% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 20% dropout rate. Finally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 1.3 star rating."
+  },
+  "T197": {
+    "why": "Score 0 reflects critical performance issues across 12 sessions. The tutor is struggling with critical 33% dropout rate, below-average 2.9 star rating, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 59.3%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 33% dropout rate. Additionally, quality improvement: conduct quality review and shadowing to boost the 2.9 star rating through targeted feedback. Finally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T064": {
+    "why": "Score 1 reflects critical performance issues across 13 sessions. The tutor is struggling with elevated 23% dropout rate, significant 23% tech issue rate, very low 1.8 star rating, excessive 46% reschedule rate, first session ratings 1.0, tutor reschedules 83% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 39.9%.",
+    "suggested_action": "Immediate technical intervention: Conduct equipment audit and provide troubleshooting training to address the 23% tech issue rate. Additionally, dropout intervention: coach on expectation-setting, session preparation, and proactive communication to reduce the 23% dropout rate. Finally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 1.8 star rating."
+  },
+  "T138": {
+    "why": "Score 3 reflects critical performance issues across 13 sessions. The tutor is struggling with critical 38% dropout rate, significant 15% tech issue rate, very low 1.7 star rating, high 23% reschedule rate, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 49.4%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 15% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 38% dropout rate. Finally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 1.7 star rating."
+  },
+  "T053": {
+    "why": "Score 4 reflects critical performance issues across 20 sessions. The tutor is struggling with critical 30% dropout rate, very low 2.1 star rating, high 20% reschedule rate, first session ratings 1.0, tutor reschedules 100% in the last period. These patterns across 20 sessions indicate systemic challenges requiring immediate attention. Churn risk is 46.0%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 30% dropout rate. Additionally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.1 star rating. Finally, scheduling support: provide guidance on scheduling reliability to improve the 20% reschedule rate."
+  },
+  "T074": {
+    "why": "Score 4 reflects critical performance issues across 16 sessions. The tutor is struggling with critical 44% dropout rate, significant 19% tech issue rate, very low 1.9 star rating, high 25% reschedule rate, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 51.5%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 19% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 44% dropout rate. Finally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 1.9 star rating."
+  },
+  "T184": {
+    "why": "Score 6 reflects critical performance issues across 18 sessions. The tutor is struggling with below-average 3.3 star rating, first session ratings 3.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 56.8%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.3 star rating. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T137": {
+    "why": "Score 8 reflects critical performance issues across 17 sessions. The tutor is struggling with significant 18% tech issue rate, first session ratings 3.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 53.7%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 18% tech issue rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T129": {
+    "why": "Score 9 reflects critical performance issues across 8 sessions. The tutor is struggling with below-average 3.4 star rating, first session dropouts 100%, tutor reschedules 100%, no-shows 13% in the last period. These patterns across 8 sessions indicate systemic challenges requiring immediate attention. Churn risk is 57.7%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.4 star rating. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T079": {
+    "why": "Score 11 reflects critical performance issues across 11 sessions. The tutor is struggling with critical 36% dropout rate, significant 18% tech issue rate, very low 2.5 star rating, excessive 36% reschedule rate, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 11 sessions indicate systemic challenges requiring immediate attention. Churn risk is 51.5%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 18% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 36% dropout rate. Finally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.5 star rating."
+  },
+  "T098": {
+    "why": "Score 11 reflects critical performance issues across 9 sessions. The tutor is struggling with elevated 22% dropout rate, first session ratings 3.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 9 sessions indicate systemic challenges requiring immediate attention. Churn risk is 47.9%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 22% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T128": {
+    "why": "Score 14 reflects critical performance issues across 21 sessions. The tutor is struggling with below-average 3.3 star rating, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 21 sessions indicate systemic challenges requiring immediate attention. Churn risk is 49.8%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.3 star rating. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T157": {
+    "why": "Score 14 reflects critical performance issues across 15 sessions. The tutor is struggling with critical 40% dropout rate, significant 20% tech issue rate, below-average 2.5 star rating, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 15 sessions indicate systemic challenges requiring immediate attention. Churn risk is 60.0%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 20% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 40% dropout rate. Finally, quality improvement: conduct quality review and shadowing to boost the 2.5 star rating through targeted feedback."
+  },
+  "T169": {
+    "why": "Score 14 reflects critical performance issues across 16 sessions. The tutor is struggling with first session ratings 3.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 51.5%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T150": {
+    "why": "Score 18 reflects critical performance issues across 16 sessions. The tutor is struggling with first session ratings 3.0, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 51.5%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T182": {
+    "why": "Score 18 reflects critical performance issues across 13 sessions. The tutor is struggling with elevated 15% dropout rate, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 55.2%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 15% dropout rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T123": {
+    "why": "Score 20 reflects critical performance issues across 12 sessions. The tutor is struggling with elevated 17% dropout rate, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 55.7%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 17% dropout rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T192": {
+    "why": "Score 20 reflects critical performance issues across 7 sessions. The tutor is struggling with critical 29% dropout rate, very low 2.2 star rating, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 7 sessions indicate systemic challenges requiring immediate attention. Churn risk is 40.4%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 29% dropout rate. Additionally, quality crisis management: schedule immediate quality review, shadowing session, and structured feedback to improve the 2.2 star rating. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T176": {
+    "why": "Score 21 reflects critical performance issues across 27 sessions. The tutor is struggling with critical 30% dropout rate, significant 22% tech issue rate, below-average 2.5 star rating, excessive 33% reschedule rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 27 sessions indicate systemic challenges requiring immediate attention. Churn risk is 42.0%.",
+    "suggested_action": "Immediate technical intervention: Conduct equipment audit and provide troubleshooting training to address the 22% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 30% dropout rate. Finally, quality improvement: conduct quality review and shadowing to boost the 2.5 star rating through targeted feedback."
+  },
+  "T122": {
+    "why": "Score 23 reflects critical performance issues across 7 sessions. The tutor is struggling with below-average 3.0 star rating, first session dropouts 100% in the last period. These patterns across 7 sessions indicate systemic challenges requiring immediate attention. Churn risk is 24.7%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.0 star rating. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, structured mentorship: pair with an experienced mentor for ongoing support and skill development."
+  },
+  "T175": {
+    "why": "Score 23 reflects critical performance issues across 16 sessions. The tutor is struggling with first session ratings 1.0, first session dropouts 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 29.0%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T006": {
+    "why": "Score 25 reflects critical performance issues across 18 sessions. The tutor is struggling with elevated 17% dropout rate, significant 22% tech issue rate, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 47.3%.",
+    "suggested_action": "Immediate technical intervention: Conduct equipment audit and provide troubleshooting training to address the 22% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 17% dropout rate. Finally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T010": {
+    "why": "Score 25 reflects critical performance issues across 13 sessions. The tutor is struggling with elevated 15% dropout rate, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 48.2%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 15% dropout rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T019": {
+    "why": "Score 25 reflects critical performance issues across 8 sessions. The tutor is struggling with below-average 3.0 star rating, first session ratings 2.0, tutor reschedules 100%, no-shows 13% in the last period. These patterns across 8 sessions indicate systemic challenges requiring immediate attention. Churn risk is 42.8%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.0 star rating. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T145": {
+    "why": "Score 25 reflects critical performance issues across 16 sessions. The tutor is struggling with elevated 25% dropout rate, first session ratings 1.0, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 54.0%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 25% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T034": {
+    "why": "Score 26 reflects critical performance issues across 19 sessions. The tutor is struggling with significant 16% tech issue rate, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 46.2%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 16% tech issue rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T130": {
+    "why": "Score 26 reflects critical performance issues across 18 sessions. The tutor is struggling with elevated 17% dropout rate, significant 17% tech issue rate, first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 47.3%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 17% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 17% dropout rate. Finally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T149": {
+    "why": "Score 29 reflects critical performance issues across 18 sessions. The tutor is struggling with below-average 3.4 star rating, high 17% reschedule rate, first session ratings 1.0, tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 44.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.4 star rating. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 17% reschedule rate. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T196": {
+    "why": "Score 30 reflects critical performance issues across 12 sessions. The tutor is struggling with critical 33% dropout rate, below-average 3.5 star rating, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 47.3%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 33% dropout rate. Additionally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.5 star rating. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T072": {
+    "why": "Score 31 reflects critical performance issues across 12 sessions. The tutor is struggling with high 17% reschedule rate, first session ratings 1.0, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 44.0%.",
+    "suggested_action": "Scheduling support: Provide guidance on scheduling reliability to improve the 17% reschedule rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T162": {
+    "why": "Score 32 reflects critical performance issues across 11 sessions. The tutor is struggling with elevated 18% dropout rate, first session dropouts 100% in the last period. These patterns across 11 sessions indicate systemic challenges requiring immediate attention. Churn risk is 39.0%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 18% dropout rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T013": {
+    "why": "Score 33 reflects critical performance issues across 19 sessions. The tutor is struggling with first session dropouts 100%, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 44.1%.",
+    "suggested_action": "First-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T040": {
+    "why": "Score 36 reflects critical performance issues across 8 sessions. The tutor is struggling with elevated 25% dropout rate, first session dropouts 100% in the last period. These patterns across 8 sessions indicate systemic challenges requiring immediate attention. Churn risk is 39.0%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 25% dropout rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate. Finally, structured mentorship: pair with an experienced mentor for ongoing support and skill development."
+  },
+  "T057": {
+    "why": "Score 36 reflects critical performance issues across 16 sessions. The tutor is struggling with below-average 3.3 star rating, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.5%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.3 star rating. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T151": {
+    "why": "Score 36 reflects critical performance issues across 19 sessions. The tutor is struggling with below-average 3.4 star rating, high 16% reschedule rate, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 44.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.4 star rating. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 16% reschedule rate. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T069": {
+    "why": "Score 37 reflects critical performance issues across 12 sessions. The tutor is struggling with below-average 3.3 star rating, high 17% reschedule rate, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 44.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.3 star rating. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 17% reschedule rate. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T035": {
+    "why": "Score 38 reflects critical performance issues across 15 sessions. The tutor is struggling with below-average 3.1 star rating, tutor reschedules 100% in the last period. These patterns across 15 sessions indicate systemic challenges requiring immediate attention. Churn risk is 33.7%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.1 star rating. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T135": {
+    "why": "Score 38 reflects critical performance issues across 11 sessions. The tutor is struggling with below-average 3.3 star rating, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 11 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.3 star rating. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T001": {
+    "why": "Score 39 reflects critical performance issues across 13 sessions. The tutor is struggling with elevated 23% dropout rate, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 45.5%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 23% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T115": {
+    "why": "Score 39 reflects critical performance issues across 14 sessions. The tutor is struggling with elevated 21% dropout rate, first session dropouts 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 39.7%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 21% dropout rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T020": {
+    "why": "Score 40 reflects critical performance issues across 16 sessions. The tutor is struggling with elevated 19% dropout rate, below-average 3.2 star rating, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.5%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 19% dropout rate. Additionally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.2 star rating. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T093": {
+    "why": "Score 40 reflects critical performance issues across 22 sessions. The tutor is struggling with first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 22 sessions indicate systemic challenges requiring immediate attention. Churn risk is 45.8%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T085": {
+    "why": "Score 41 reflects critical performance issues across 21 sessions. The tutor is struggling with first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 21 sessions indicate systemic challenges requiring immediate attention. Churn risk is 46.2%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T101": {
+    "why": "Score 41 reflects critical performance issues across 13 sessions. The tutor is struggling with elevated 15% dropout rate, below-average 3.3 star rating, high 15% reschedule rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 45.2%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 15% dropout rate. Additionally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.3 star rating. Finally, scheduling support: provide guidance on scheduling reliability to improve the 15% reschedule rate."
+  },
+  "T114": {
+    "why": "Score 41 reflects critical performance issues across 19 sessions. The tutor is struggling with first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 43.1%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T082": {
+    "why": "Score 42 reflects critical performance issues across 11 sessions. The tutor is struggling with high 18% reschedule rate, first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 11 sessions indicate systemic challenges requiring immediate attention. Churn risk is 34.0%.",
+    "suggested_action": "Scheduling support: Provide guidance on scheduling reliability to improve the 18% reschedule rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T056": {
+    "why": "Score 43 reflects critical performance issues across 15 sessions. The tutor is struggling with elevated 20% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 15 sessions indicate systemic challenges requiring immediate attention. Churn risk is 39.0%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 20% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T087": {
+    "why": "Score 43 reflects critical performance issues across 17 sessions. The tutor is struggling with elevated 18% dropout rate, first session dropouts 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 26.1%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 18% dropout rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T088": {
+    "why": "Score 43 reflects critical performance issues across 12 sessions. The tutor is struggling with elevated 25% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 39.0%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 25% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T136": {
+    "why": "Score 43 reflects critical performance issues across 14 sessions. The tutor is struggling with elevated 21% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.6%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 21% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T134": {
+    "why": "Score 44 reflects critical performance issues across 18 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 43.4%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T164": {
+    "why": "Score 44 reflects critical performance issues across 14 sessions. The tutor is struggling with high 21% reschedule rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 46.9%.",
+    "suggested_action": "Scheduling improvement: Reinforce scheduling discipline and confirmation procedures to reduce the 21% reschedule rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T078": {
+    "why": "Score 45 reflects critical performance issues across 17 sessions. The tutor is struggling with elevated 18% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.1%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 18% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T026": {
+    "why": "Score 46 reflects critical performance issues across 17 sessions. The tutor is struggling with first session ratings 2.0, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 48.1%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T032": {
+    "why": "Score 46 reflects critical performance issues across 17 sessions. The tutor is struggling with elevated 18% dropout rate, below-average 3.2 star rating, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.8%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 18% dropout rate. Additionally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.2 star rating. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T107": {
+    "why": "Score 46 reflects critical performance issues across 18 sessions. The tutor is struggling with elevated 17% dropout rate, significant 22% tech issue rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 42.7%.",
+    "suggested_action": "Immediate technical intervention: Conduct equipment audit and provide troubleshooting training to address the 22% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 17% dropout rate. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T139": {
+    "why": "Score 46 reflects critical performance issues across 17 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 41.4%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T023": {
+    "why": "Score 47 reflects critical performance issues across 12 sessions. The tutor is struggling with elevated 17% dropout rate, significant 25% tech issue rate, below-average 3.4 star rating, high 17% reschedule rate, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 38.2%.",
+    "suggested_action": "Immediate technical intervention: Conduct equipment audit and provide troubleshooting training to address the 25% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 17% dropout rate. Finally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.4 star rating."
+  },
+  "T081": {
+    "why": "Score 47 reflects critical performance issues across 12 sessions. The tutor is struggling with elevated 17% dropout rate, significant 17% tech issue rate, below-average 3.4 star rating, high 17% reschedule rate, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 38.7%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 17% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 17% dropout rate. Finally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.4 star rating."
+  },
+  "T146": {
+    "why": "Score 47 reflects critical performance issues across 23 sessions. The tutor is struggling with elevated 17% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 23 sessions indicate systemic challenges requiring immediate attention. Churn risk is 47.3%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 17% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T097": {
+    "why": "Score 48 reflects critical performance issues across 14 sessions. The tutor is struggling with severe 29% tech issue rate, first session dropouts 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 34.7%.",
+    "suggested_action": "Immediate technical intervention: Conduct equipment audit and provide troubleshooting training to address the 29% tech issue rate. Additionally, first-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T111": {
+    "why": "Score 48 reflects critical performance issues across 21 sessions. The tutor is struggling with significant 19% tech issue rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 21 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.9%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 19% tech issue rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T121": {
+    "why": "Score 48 reflects critical performance issues across 18 sessions. The tutor is struggling with first session dropouts 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 35.1%.",
+    "suggested_action": "First-session retention plan: launch rapid follow-up and expectation-setting to reduce the 100% dropout rate."
+  },
+  "T161": {
+    "why": "Score 48 reflects critical performance issues across 13 sessions. The tutor is struggling with elevated 15% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.5%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 15% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T170": {
+    "why": "Score 48 reflects critical performance issues across 12 sessions. The tutor is struggling with elevated 17% dropout rate, high 17% reschedule rate, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 38.2%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 17% dropout rate. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 17% reschedule rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T198": {
+    "why": "Score 48 reflects critical performance issues across 14 sessions. The tutor is struggling with critical 29% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 47.4%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 29% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T039": {
+    "why": "Score 49 reflects critical performance issues across 21 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 21 sessions indicate systemic challenges requiring immediate attention. Churn risk is 32.8%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T100": {
+    "why": "Score 49 reflects critical performance issues across 15 sessions. The tutor is struggling with below-average 3.4 star rating, high 20% reschedule rate, first session ratings 3.0, tutor reschedules 67% in the last period. These patterns across 15 sessions indicate systemic challenges requiring immediate attention. Churn risk is 28.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.4 star rating. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 20% reschedule rate. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T105": {
+    "why": "Score 49 reflects critical performance issues across 11 sessions. The tutor is struggling with high 18% reschedule rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 11 sessions indicate systemic challenges requiring immediate attention. Churn risk is 32.6%.",
+    "suggested_action": "Scheduling support: Provide guidance on scheduling reliability to improve the 18% reschedule rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T183": {
+    "why": "Score 49 reflects critical performance issues across 15 sessions. The tutor is struggling with elevated 20% dropout rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 15 sessions indicate systemic challenges requiring immediate attention. Churn risk is 47.0%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 20% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T189": {
+    "why": "Score 50 reflects significant performance issues across 11 sessions. The tutor is struggling with elevated 18% dropout rate, high 18% reschedule rate, tutor reschedules 100% in the last period. These patterns across 11 sessions indicate systemic challenges requiring immediate attention. Churn risk is 35.0%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 18% dropout rate. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 18% reschedule rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T059": {
+    "why": "Score 51 reflects significant performance issues across 21 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 21 sessions indicate systemic challenges requiring immediate attention. Churn risk is 32.1%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T092": {
+    "why": "Score 51 reflects significant performance issues across 21 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 21 sessions indicate systemic challenges requiring immediate attention. Churn risk is 28.8%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T119": {
+    "why": "Score 51 reflects critical performance issues across 13 sessions. The tutor is struggling with elevated 15% dropout rate, below-average 3.4 star rating, excessive 31% reschedule rate, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 34.2%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 15% dropout rate. Additionally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.4 star rating. Finally, scheduling discipline: implement strict scheduling protocols and confirmation processes to address the 31% reschedule rate."
+  },
+  "T004": {
+    "why": "Score 52 reflects significant performance issues across 22 sessions. The tutor is struggling with elevated 18% dropout rate, tutor reschedules 100% in the last period. These patterns across 22 sessions indicate systemic challenges requiring immediate attention. Churn risk is 35.3%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 18% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T012": {
+    "why": "Score 52 reflects significant performance issues across 20 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 20 sessions indicate systemic challenges requiring immediate attention. Churn risk is 29.0%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T030": {
+    "why": "Score 52 reflects significant performance issues across 13 sessions. The tutor is struggling with elevated 23% dropout rate, first session ratings 1.0 in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 19.2%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 23% dropout rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T050": {
+    "why": "Score 52 reflects significant performance issues across 13 sessions. The tutor is struggling with significant 15% tech issue rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 35.0%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 15% tech issue rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T066": {
+    "why": "Score 52 reflects significant performance issues across 18 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 32.4%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T089": {
+    "why": "Score 52 reflects significant performance issues across 17 sessions. The tutor is struggling with high 18% reschedule rate, first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.4%.",
+    "suggested_action": "Scheduling support: Provide guidance on scheduling reliability to improve the 18% reschedule rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T116": {
+    "why": "Score 52 reflects significant performance issues with only 4 sessions. The tutor is struggling with high 25% reschedule rate, first session ratings 3.0, tutor reschedules 100% in the last period. Limited session volume (4 sessions) may also be contributing to the low score. Churn risk is 35.0%.",
+    "suggested_action": "Scheduling improvement: Reinforce scheduling discipline and confirmation procedures to reduce the 25% reschedule rate. Additionally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T131": {
+    "why": "Score 52 reflects significant performance issues across 10 sessions. The tutor is struggling with elevated 20% dropout rate, tutor reschedules 100% in the last period. These patterns across 10 sessions indicate systemic challenges requiring immediate attention. Churn risk is 39.0%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 20% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T060": {
+    "why": "Score 53 reflects significant performance issues across 20 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 20 sessions indicate systemic challenges requiring immediate attention. Churn risk is 30.5%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T027": {
+    "why": "Score 54 reflects significant performance issues across 18 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.4%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T031": {
+    "why": "Score 54 reflects significant performance issues across 13 sessions. The tutor is struggling with below-average 3.3 star rating, high 15% reschedule rate, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 31.1%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.3 star rating. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 15% reschedule rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T049": {
+    "why": "Score 54 reflects significant performance issues across 16 sessions. The tutor is struggling with elevated 19% dropout rate, significant 19% tech issue rate, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 34.4%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 19% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 19% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T083": {
+    "why": "Score 54 reflects significant performance issues across 19 sessions. The tutor is struggling with elevated 16% dropout rate, significant 16% tech issue rate, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 32.9%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 16% tech issue rate. Additionally, address dropouts: provide coaching on engagement and follow-up to improve the 16% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T086": {
+    "why": "Score 54 reflects significant performance issues across 24 sessions. The tutor is struggling with first session ratings 1.0 in the last period. These patterns across 24 sessions indicate systemic challenges requiring immediate attention. Churn risk is 23.3%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T094": {
+    "why": "Score 54 reflects critical performance issues across 5 sessions. The tutor is struggling with critical 40% dropout rate, significant 20% tech issue rate, first session ratings 3.0 in the last period. These patterns across 5 sessions indicate systemic challenges requiring immediate attention. Churn risk is 24.0%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 20% tech issue rate. Additionally, urgent dropout reduction: implement structured coaching on engagement strategies and follow-up protocols to address the 40% dropout rate. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T110": {
+    "why": "Score 54 reflects significant performance issues across 10 sessions. The tutor is struggling with below-average 3.0 star rating, high 20% reschedule rate, tutor reschedules 100% in the last period. These patterns across 10 sessions indicate systemic challenges requiring immediate attention. Churn risk is 28.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.0 star rating. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 20% reschedule rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T112": {
+    "why": "Score 54 reflects significant performance issues across 12 sessions. The tutor is struggling with elevated 25% dropout rate, significant 17% tech issue rate, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 35.0%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 17% tech issue rate. Additionally, dropout intervention: coach on expectation-setting, session preparation, and proactive communication to reduce the 25% dropout rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T143": {
+    "why": "Score 54 reflects significant performance issues across 13 sessions. The tutor is struggling with high 15% reschedule rate, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 28.1%.",
+    "suggested_action": "Scheduling support: Provide guidance on scheduling reliability to improve the 15% reschedule rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T173": {
+    "why": "Score 54 reflects significant performance issues across 14 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 25.0%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T033": {
+    "why": "Score 55 reflects significant performance issues across 17 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 32.7%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T147": {
+    "why": "Score 55 reflects significant performance issues across 20 sessions. The tutor is struggling with elevated 20% dropout rate, tutor reschedules 100% in the last period. These patterns across 20 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.0%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 20% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T158": {
+    "why": "Score 55 reflects significant performance issues across 25 sessions. The tutor is struggling with significant 16% tech issue rate, tutor reschedules 100% in the last period. These patterns across 25 sessions indicate systemic challenges requiring immediate attention. Churn risk is 31.0%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 16% tech issue rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T171": {
+    "why": "Score 55 reflects significant performance issues across 24 sessions. The tutor is struggling with tutor reschedules 100%, no-shows 13% in the last period. These patterns across 24 sessions indicate systemic challenges requiring immediate attention. Churn risk is 40.8%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%). Additionally, attendance remediation: add reminder automation and accountability touchpoints to curb the 13% no-show rate."
+  },
+  "T172": {
+    "why": "Score 55 reflects significant performance issues across 13 sessions. The tutor is struggling with significant 15% tech issue rate, high 23% reschedule rate, tutor reschedules 100% in the last period. These patterns across 13 sessions indicate systemic challenges requiring immediate attention. Churn risk is 35.0%.",
+    "suggested_action": "Technical support: Schedule equipment check and troubleshooting refresher for the 15% tech issue rate. Additionally, scheduling improvement: reinforce scheduling discipline and confirmation procedures to reduce the 23% reschedule rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T179": {
+    "why": "Score 55 reflects significant performance issues across 19 sessions. The tutor is struggling with elevated 21% dropout rate, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.6%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 21% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T045": {
+    "why": "Score 56 reflects significant performance issues across 17 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 34.5%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T167": {
+    "why": "Score 56 reflects significant performance issues across 14 sessions. The tutor is struggling with high 21% reschedule rate, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 25.0%.",
+    "suggested_action": "Scheduling improvement: Reinforce scheduling discipline and confirmation procedures to reduce the 21% reschedule rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T188": {
+    "why": "Score 56 reflects critical performance issues across 10 sessions. The tutor is struggling with critical 40% dropout rate, tutor reschedules 100% in the last period. These patterns across 10 sessions indicate systemic challenges requiring immediate attention. Churn risk is 51.0%.",
+    "suggested_action": "Urgent dropout reduction: Implement structured coaching on engagement strategies and follow-up protocols to address the 40% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T200": {
+    "why": "Score 56 reflects significant performance issues across 19 sessions. The tutor is struggling with elevated 21% dropout rate, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 43.4%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 21% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T029": {
+    "why": "Score 57 reflects significant performance issues across 16 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.0%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T038": {
+    "why": "Score 57 reflects significant performance issues across 11 sessions. The tutor is struggling with high 18% reschedule rate, tutor reschedules 100% in the last period. These patterns across 11 sessions indicate systemic challenges requiring immediate attention. Churn risk is 28.6%.",
+    "suggested_action": "Scheduling support: Provide guidance on scheduling reliability to improve the 18% reschedule rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T058": {
+    "why": "Score 57 reflects significant performance issues across 15 sessions. The tutor is struggling with high 20% reschedule rate, tutor reschedules 100% in the last period. These patterns across 15 sessions indicate systemic challenges requiring immediate attention. Churn risk is 30.3%.",
+    "suggested_action": "Scheduling support: Provide guidance on scheduling reliability to improve the 20% reschedule rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T073": {
+    "why": "Score 57 reflects significant performance issues across 12 sessions. The tutor is struggling with elevated 25% dropout rate, below-average 3.3 star rating, first session ratings 3.0 in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 20.5%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 25% dropout rate. Additionally, rating improvement: schedule quality review and incorporate feedback to enhance the 3.3 star rating. Finally, first-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist."
+  },
+  "T077": {
+    "why": "Score 57 reflects significant performance issues across 16 sessions. The tutor is struggling with elevated 19% dropout rate, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 32.5%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 19% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T117": {
+    "why": "Score 57 reflects significant performance issues across 16 sessions. The tutor is struggling with below-average 3.5 star rating, tutor reschedules 100% in the last period. These patterns across 16 sessions indicate systemic challenges requiring immediate attention. Churn risk is 25.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.5 star rating. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T133": {
+    "why": "Score 57 reflects significant performance issues across 14 sessions. The tutor is struggling with high 21% reschedule rate, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 25.0%.",
+    "suggested_action": "Scheduling improvement: Reinforce scheduling discipline and confirmation procedures to reduce the 21% reschedule rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T178": {
+    "why": "Score 57 reflects significant performance issues across 21 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 21 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.9%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T190": {
+    "why": "Score 57 reflects significant performance issues across 23 sessions. The tutor is struggling with elevated 22% dropout rate, high 17% reschedule rate, tutor reschedules 100% in the last period. These patterns across 23 sessions indicate systemic challenges requiring immediate attention. Churn risk is 36.3%.",
+    "suggested_action": "Dropout intervention: Coach on expectation-setting, session preparation, and proactive communication to reduce the 22% dropout rate. Additionally, scheduling support: provide guidance on scheduling reliability to improve the 17% reschedule rate. Finally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T193": {
+    "why": "Score 57 reflects critical performance issues across 15 sessions. The tutor is struggling with excessive 27% reschedule rate, tutor reschedules 100% in the last period. These patterns across 15 sessions indicate systemic challenges requiring immediate attention. Churn risk is 27.7%.",
+    "suggested_action": "Scheduling discipline: Implement strict scheduling protocols and confirmation processes to address the 27% reschedule rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T080": {
+    "why": "Score 58 reflects significant performance issues across 17 sessions. The tutor is struggling with high 24% reschedule rate, tutor reschedules 100% in the last period. These patterns across 17 sessions indicate systemic challenges requiring immediate attention. Churn risk is 27.4%.",
+    "suggested_action": "Scheduling improvement: Reinforce scheduling discipline and confirmation procedures to reduce the 24% reschedule rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T177": {
+    "why": "Score 58 reflects significant performance issues across 14 sessions. The tutor is struggling with below-average 3.3 star rating, tutor reschedules 100% in the last period. These patterns across 14 sessions indicate systemic challenges requiring immediate attention. Churn risk is 25.0%.",
+    "suggested_action": "Rating improvement: Schedule quality review and incorporate feedback to enhance the 3.3 star rating. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T180": {
+    "why": "Score 58 reflects significant performance issues across 19 sessions. The tutor is struggling with elevated 16% dropout rate, tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 31.3%.",
+    "suggested_action": "Address dropouts: Provide coaching on engagement and follow-up to improve the 16% dropout rate. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T148": {
+    "why": "Score 59 reflects significant performance issues across 19 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 19 sessions indicate systemic challenges requiring immediate attention. Churn risk is 25.0%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T174": {
+    "why": "Score 59 reflects significant performance issues across 18 sessions. The tutor is struggling with tutor reschedules 100% in the last period. These patterns across 18 sessions indicate systemic challenges requiring immediate attention. Churn risk is 37.2%.",
+    "suggested_action": "Scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T194": {
+    "why": "Score 59 reflects significant performance issues across 12 sessions. The tutor is struggling with first session ratings 3.0, tutor reschedules 100% in the last period. These patterns across 12 sessions indicate systemic challenges requiring immediate attention. Churn risk is 38.3%.",
+    "suggested_action": "First-session triage: shadow the next onboarding, refine intro script, and supply a quality checklist. Additionally, scheduling overhaul: enforce calendar guardrails to slash tutor-driven reschedules (100%)."
+  },
+  "T011": {
+    "why": "Score 60 indicates moderate performance. While showing minimal 0% tech issues and good scheduling with 4% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 19% dropout rate, tutor reschedules 100% over 27 sessions. Current churn risk is 28.4%.",
+    "suggested_action": "Address the 19% dropout rate through better expectation-setting. Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T065": {
+    "why": "Score 60 indicates moderate performance. While showing low 7% dropout rate and strong 4.2 star rating and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 15 sessions. Current churn risk is 33.7%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T099": {
+    "why": "Score 60 indicates moderate performance. While showing minimal 0% tech issues and strong 4.4 star rating and first session rating 4.0, the tutor faces challenges with tutor reschedules 100% over 14 sessions. Current churn risk is 28.9%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T106": {
+    "why": "Score 60 indicates moderate performance. While showing low 7% dropout rate and minimal 7% tech issues and strong 4.0 star rating and good scheduling with 7% reschedules and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 14 sessions. Current churn risk is 23.9%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T181": {
+    "why": "Score 60 indicates moderate performance. While showing low 0% dropout rate and minimal 9% tech issues and strong 4.0 star rating and reliable attendance (0% no-shows), the tutor faces challenges with 18% reschedule rate, tutor reschedules 100% over 11 sessions. Current churn risk is 21.0%.",
+    "suggested_action": "Improve scheduling reliability (currently 18% reschedules). Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T007": {
+    "why": "Score 61 indicates moderate performance. While showing minimal 0% tech issues and strong 4.0 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 20% dropout rate, tutor reschedules 100% over 10 sessions. Current churn risk is 29.0%.",
+    "suggested_action": "Address the 20% dropout rate through better expectation-setting. Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T009": {
+    "why": "Score 61 indicates moderate performance. While showing minimal 0% tech issues and strong 4.5 star rating and good scheduling with 7% reschedules and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with 29% dropout rate, tutor reschedules 100% over 14 sessions. Current churn risk is 35.4%.",
+    "suggested_action": "Focus on reducing the 29% dropout rate by improving session engagement and follow-up communication. Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T014": {
+    "why": "Score 61 indicates moderate performance. While showing low 6% dropout rate and minimal 0% tech issues and strong 4.0 star rating and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 16 sessions. Current churn risk is 23.5%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T021": {
+    "why": "Score 61 indicates moderate performance. While showing minimal 7% tech issues and good scheduling with 7% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 15 sessions. Current churn risk is 26.3%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T043": {
+    "why": "Score 61 indicates moderate performance. While showing low 7% dropout rate and minimal 7% tech issues and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 15 sessions. Current churn risk is 26.7%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T102": {
+    "why": "Score 61 indicates moderate performance. While showing low 0% dropout rate and minimal 10% tech issues and good scheduling with 10% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 21 sessions. Current churn risk is 21.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T103": {
+    "why": "Score 61 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 19% reschedule rate, tutor reschedules 100% over 16 sessions. Current churn risk is 21.0%.",
+    "suggested_action": "Improve scheduling reliability (currently 19% reschedules). Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T113": {
+    "why": "Score 61 indicates moderate performance. While showing minimal 0% tech issues and strong 4.1 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 19% dropout rate, 19% reschedule rate, tutor reschedules 100% over 16 sessions. Current churn risk is 28.5%.",
+    "suggested_action": "Address the 19% dropout rate through better expectation-setting. Additionally, improve scheduling reliability (currently 19% reschedules)."
+  },
+  "T018": {
+    "why": "Score 62 indicates moderate performance. While showing low 0% dropout rate and minimal 8% tech issues and strong 4.1 star rating and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with 15% reschedule rate, tutor reschedules 100% over 13 sessions. Current churn risk is 31.0%.",
+    "suggested_action": "Improve scheduling reliability (currently 15% reschedules). Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T022": {
+    "why": "Score 62 indicates moderate performance. While showing low 0% dropout rate and minimal 6% tech issues and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 16 sessions. Current churn risk is 31.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T052": {
+    "why": "Score 62 indicates moderate performance. While showing strong 4.4 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 22% tech issue rate, tutor reschedules 100% over 9 sessions. Current churn risk is 25.4%.",
+    "suggested_action": "Resolve technical issues affecting 22% of sessions with equipment check and troubleshooting training. Additionally, increase session volume (currently 9 sessions) to build consistency and experience."
+  },
+  "T141": {
+    "why": "Score 62 indicates moderate performance. While showing minimal 6% tech issues and strong 4.0 star rating and good scheduling with 6% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 16 sessions. Current churn risk is 26.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T155": {
+    "why": "Score 62 indicates moderate performance. While showing low 6% dropout rate and strong 4.2 star rating and first session rating 5.0, the tutor faces challenges with 19% tech issue rate, 19% reschedule rate, tutor reschedules 100% over 16 sessions. Current churn risk is 28.4%.",
+    "suggested_action": "Reduce tech issues (19%) through proactive equipment maintenance. Additionally, improve scheduling reliability (currently 19% reschedules)."
+  },
+  "T160": {
+    "why": "Score 62 indicates moderate performance. While showing low 8% dropout rate and minimal 0% tech issues and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 23% reschedule rate, tutor reschedules 100% over 13 sessions. Current churn risk is 24.1%.",
+    "suggested_action": "Strengthen scheduling discipline to reduce the 23% reschedule rate. Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T046": {
+    "why": "Score 63 indicates moderate performance. While showing low 9% dropout rate and minimal 0% tech issues and strong 4.1 star rating and good scheduling with 9% reschedules and reliable attendance (0% no-shows), the tutor faces challenges with first session ratings 3.0 over 22 sessions. Current churn risk is 21.6%.",
+    "suggested_action": "Improve first-session delivery: rehearse onboarding flow and focus on rapport in the first 10 minutes."
+  },
+  "T054": {
+    "why": "Score 63 indicates moderate performance. While showing low 6% dropout rate and minimal 6% tech issues and strong 4.0 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 17% reschedule rate, tutor reschedules 100% over 18 sessions. Current churn risk is 23.2%.",
+    "suggested_action": "Improve scheduling reliability (currently 17% reschedules). Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T084": {
+    "why": "Score 63 indicates moderate performance. While showing strong 4.1 star rating and good scheduling with 5% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 20 sessions. Current churn risk is 28.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T090": {
+    "why": "Score 63 indicates moderate performance. While showing low 0% dropout rate and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 14 sessions. Current churn risk is 28.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T104": {
+    "why": "Score 63 indicates moderate performance. While showing low 0% dropout rate and strong 4.3 star rating and good scheduling with 8% reschedules and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with 15% tech issue rate, tutor reschedules 100% over 13 sessions. Current churn risk is 24.0%.",
+    "suggested_action": "Reduce tech issues (15%) through proactive equipment maintenance. Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T126": {
+    "why": "Score 63 indicates moderate performance. While showing low 6% dropout rate and strong 4.0 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 18 sessions. Current churn risk is 26.2%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T041": {
+    "why": "Score 64 indicates moderate performance. While showing low 6% dropout rate and minimal 6% tech issues and strong 4.2 star rating and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 16 sessions. Current churn risk is 33.5%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T042": {
+    "why": "Score 64 indicates moderate performance. While showing low 10% dropout rate and minimal 5% tech issues and strong 4.2 star rating and first session rating 5.0 and reliable attendance (5% no-shows), the tutor faces challenges with tutor reschedules 100% over 21 sessions. Current churn risk is 26.2%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T124": {
+    "why": "Score 64 indicates moderate performance. While showing minimal 0% tech issues and strong 4.0 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 19 sessions. Current churn risk is 28.2%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T144": {
+    "why": "Score 64 indicates moderate performance. The tutor demonstrates low 0% dropout rate and reliable attendance (0% no-shows), but overall score suggests room for improvement in consistency or other metrics. Current churn risk is 11.0%.",
+    "suggested_action": "Review recent session patterns and provide targeted coaching to address specific performance gaps. Consider pairing with a mentor for structured improvement."
+  },
+  "T168": {
+    "why": "Score 64 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.2 star rating and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 14 sessions. Current churn risk is 21.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T028": {
+    "why": "Score 65 indicates moderate performance. While showing minimal 0% tech issues and good scheduling with 0% reschedules and low tutor reschedules 0%, the tutor faces challenges with 18% dropout rate, first session ratings 3.0 over 17 sessions. Current churn risk is 9.8%.",
+    "suggested_action": "Address the 18% dropout rate through better expectation-setting. Additionally, improve first-session delivery: rehearse onboarding flow and focus on rapport in the first 10 minutes."
+  },
+  "T036": {
+    "why": "Score 65 indicates moderate performance. While showing low 0% dropout rate and good scheduling with 0% reschedules and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with below-average 3.4 star rating, first session ratings 3.0 over 7 sessions. Current churn risk is 11.0%.",
+    "suggested_action": "Improve the 3.4 star rating through quality review, shadowing, and feedback incorporation. Additionally, increase session volume (currently 7 sessions) to build consistency and experience."
+  },
+  "T051": {
+    "why": "Score 65 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 24 sessions. Current churn risk is 21.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T008": {
+    "why": "Score 66 indicates moderate performance. While showing low 6% dropout rate and minimal 0% tech issues and strong 4.0 star rating and good scheduling with 6% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 17 sessions. Current churn risk is 23.4%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T037": {
+    "why": "Score 66 indicates moderate performance. While showing strong 4.3 star rating and good scheduling with 0% reschedules and low tutor reschedules 0%, the tutor faces challenges with 21% dropout rate, first session ratings 3.0, no-shows 14% over 14 sessions. Current churn risk is 23.9%.",
+    "suggested_action": "Focus on reducing the 21% dropout rate by improving session engagement and follow-up communication. Additionally, improve first-session delivery: rehearse onboarding flow and focus on rapport in the first 10 minutes."
+  },
+  "T048": {
+    "why": "Score 66 indicates moderate performance. While showing low 9% dropout rate and minimal 9% tech issues and good scheduling with 0% reschedules and low tutor reschedules 0%, the tutor faces challenges with first session ratings 3.0 over 11 sessions. Current churn risk is 14.4%.",
+    "suggested_action": "Improve first-session delivery: rehearse onboarding flow and focus on rapport in the first 10 minutes."
+  },
+  "T070": {
+    "why": "Score 66 indicates moderate performance. While showing low 5% dropout rate and minimal 5% tech issues and strong 4.0 star rating and good scheduling with 5% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 20 sessions. Current churn risk is 23.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T076": {
+    "why": "Score 66 indicates moderate performance. While showing minimal 0% tech issues and strong 4.2 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 20 sessions. Current churn risk is 32.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T120": {
+    "why": "Score 66 indicates moderate performance. While showing strong 4.5 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 14 sessions. Current churn risk is 36.7%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T165": {
+    "why": "Score 66 indicates moderate performance. While showing low 7% dropout rate and strong 4.4 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 20% reschedule rate, tutor reschedules 100% over 15 sessions. Current churn risk is 33.7%.",
+    "suggested_action": "Improve scheduling reliability (currently 20% reschedules). Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T185": {
+    "why": "Score 66 indicates moderate performance. While showing minimal 5% tech issues and strong 4.3 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 19 sessions. Current churn risk is 28.2%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T063": {
+    "why": "Score 67 indicates moderate performance. While showing low 6% dropout rate and minimal 0% tech issues and strong 4.3 star rating and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 16 sessions. Current churn risk is 26.5%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T071": {
+    "why": "Score 67 indicates moderate performance. While showing low 8% dropout rate and minimal 8% tech issues and strong 4.3 star rating and good scheduling with 8% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 12 sessions. Current churn risk is 34.3%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T108": {
+    "why": "Score 67 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.0 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 10 sessions. Current churn risk is 21.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T125": {
+    "why": "Score 67 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.3 star rating and good scheduling with 7% reschedules and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 15 sessions. Current churn risk is 24.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T142": {
+    "why": "Score 67 indicates moderate performance. While showing low 7% dropout rate and minimal 0% tech issues and strong 4.3 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 21% reschedule rate, tutor reschedules 100% over 14 sessions. Current churn risk is 30.9%.",
+    "suggested_action": "Strengthen scheduling discipline to reduce the 21% reschedule rate. Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T195": {
+    "why": "Score 67 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.4 star rating and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 15 sessions. Current churn risk is 21.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T140": {
+    "why": "Score 68 indicates moderate performance. While showing low 0% dropout rate and strong 4.0 star rating and good scheduling with 0% reschedules and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with 33% tech issue rate, first session ratings 3.0 over 6 sessions. Current churn risk is 11.0%.",
+    "suggested_action": "Resolve technical issues affecting 33% of sessions with equipment check and troubleshooting training. Additionally, increase session volume (currently 6 sessions) to build consistency and experience."
+  },
+  "T186": {
+    "why": "Score 68 indicates moderate performance. While showing low 9% dropout rate and minimal 5% tech issues and strong 4.3 star rating and good scheduling with 5% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 22 sessions. Current churn risk is 24.6%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T199": {
+    "why": "Score 68 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.5 star rating and first session rating 4.0 and reliable attendance (0% no-shows), the tutor faces challenges with 21% reschedule rate, tutor reschedules 100% over 14 sessions. Current churn risk is 24.0%.",
+    "suggested_action": "Strengthen scheduling discipline to reduce the 21% reschedule rate. Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T095": {
+    "why": "Score 69 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.3 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 17% reschedule rate, tutor reschedules 100% over 12 sessions. Current churn risk is 31.0%.",
+    "suggested_action": "Improve scheduling reliability (currently 17% reschedules). Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T156": {
+    "why": "Score 69 indicates moderate performance. While showing minimal 0% tech issues and good scheduling with 0% reschedules and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with first session ratings 3.0 over 9 sessions. Current churn risk is 5.4%.",
+    "suggested_action": "Increase session volume (currently 9 sessions) to build consistency and experience. Additionally, improve first-session delivery: rehearse onboarding flow and focus on rapport in the first 10 minutes."
+  },
+  "T163": {
+    "why": "Score 69 indicates moderate performance. While showing minimal 8% tech issues and good scheduling with 0% reschedules and first session rating 5.0 and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with 23% dropout rate, below-average 3.1 star rating over 13 sessions. Current churn risk is 10.2%.",
+    "suggested_action": "Focus on reducing the 23% dropout rate by improving session engagement and follow-up communication. Additionally, improve the 3.1 star rating through quality review, shadowing, and feedback incorporation."
+  },
+  "T025": {
+    "why": "Score 70 indicates moderate performance. The tutor demonstrates good scheduling with 0% reschedules and first session rating 4.0 and low tutor reschedules 0% and reliable attendance (0% no-shows), but overall score suggests room for improvement in consistency or other metrics. Current churn risk is 5.0%.",
+    "suggested_action": "Increase session volume (currently 8 sessions) to build consistency and experience."
+  },
+  "T109": {
+    "why": "Score 70 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.2 star rating and good scheduling with 7% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 14 sessions. Current churn risk is 27.0%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T118": {
+    "why": "Score 70 indicates moderate performance. While showing low 0% dropout rate and strong 4.6 star rating and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with 20% reschedule rate, tutor reschedules 100% over 10 sessions. Current churn risk is 20.0%.",
+    "suggested_action": "Improve scheduling reliability (currently 20% reschedules). Additionally, address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T068": {
+    "why": "Score 72 indicates moderate performance. While showing low 8% dropout rate and minimal 8% tech issues and strong 4.8 star rating and good scheduling with 8% reschedules and first session rating 5.0 and reliable attendance (0% no-shows), the tutor faces challenges with tutor reschedules 100% over 12 sessions. Current churn risk is 23.3%.",
+    "suggested_action": "Address tutor-driven reschedules (100%): audit calendar management and implement scheduling guardrails."
+  },
+  "T096": {
+    "why": "Score 72 indicates moderate performance. The tutor demonstrates low 0% dropout rate and good scheduling with 0% reschedules and low tutor reschedules 0% and reliable attendance (0% no-shows), but overall score suggests room for improvement in consistency or other metrics. Current churn risk is 0.0%.",
+    "suggested_action": "Increase session volume (currently 9 sessions) to build consistency and experience."
+  },
+  "T005": {
+    "why": "Score 73 indicates moderate performance. While showing strong 4.0 star rating and good scheduling with 6% reschedules and first session rating 4.0 and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with 28% dropout rate over 18 sessions. Current churn risk is 11.1%.",
+    "suggested_action": "Focus on reducing the 28% dropout rate by improving session engagement and follow-up communication."
+  },
+  "T075": {
+    "why": "Score 73 indicates moderate performance. While showing minimal 10% tech issues and good scheduling with 0% reschedules and first session rating 4.0 and low tutor reschedules 0% and reliable attendance (5% no-shows), the tutor faces challenges with 19% dropout rate over 21 sessions. Current churn risk is 9.0%.",
+    "suggested_action": "Address the 19% dropout rate through better expectation-setting."
+  },
+  "T062": {
+    "why": "Score 74 indicates moderate performance. While showing minimal 0% tech issues and good scheduling with 0% reschedules and first session rating 4.0 and low tutor reschedules 0%, the tutor faces challenges with no-shows 11% over 9 sessions. Current churn risk is 4.8%.",
+    "suggested_action": "Increase session volume (currently 9 sessions) to build consistency and experience. Additionally, curb no-shows (11%): introduce reminders and accountability touchpoints."
+  },
+  "T166": {
+    "why": "Score 74 indicates moderate performance. While showing low 0% dropout rate and minimal 9% tech issues and strong 4.0 star rating and good scheduling with 0% reschedules and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with first session ratings 3.0 over 11 sessions. Current churn risk is 4.0%.",
+    "suggested_action": "Improve first-session delivery: rehearse onboarding flow and focus on rapport in the first 10 minutes."
+  },
+  "T017": {
+    "why": "Score 77 indicates moderate performance. While showing low 6% dropout rate and good scheduling with 0% reschedules and first session rating 4.0 and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with 17% tech issue rate over 18 sessions. Current churn risk is 0.0%.",
+    "suggested_action": "Reduce tech issues (17%) through proactive equipment maintenance."
+  },
+  "T159": {
+    "why": "Score 77 indicates moderate performance. While showing low 0% dropout rate and minimal 0% tech issues and strong 4.1 star rating and good scheduling with 0% reschedules and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with first session ratings 3.0 over 13 sessions. Current churn risk is 0.0%.",
+    "suggested_action": "Improve first-session delivery: rehearse onboarding flow and focus on rapport in the first 10 minutes."
+  },
+  "T187": {
+    "why": "Score 77 indicates moderate performance. While showing low 0% dropout rate and good scheduling with 0% reschedules and first session rating 5.0 and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with below-average 3.4 star rating over 9 sessions. Current churn risk is 0.0%.",
+    "suggested_action": "Improve the 3.4 star rating through quality review, shadowing, and feedback incorporation. Additionally, increase session volume (currently 9 sessions) to build consistency and experience."
+  },
+  "T016": {
+    "why": "Score 79 indicates moderate performance. While showing minimal 7% tech issues and good scheduling with 0% reschedules and first session rating 5.0 and low tutor reschedules 0% and reliable attendance (0% no-shows), the tutor faces challenges with 21% dropout rate over 14 sessions. Current churn risk is 5.6%.",
+    "suggested_action": "Focus on reducing the 21% dropout rate by improving session engagement and follow-up communication."
+  },
+  "T055": {
+    "why": "Score 79 indicates moderate performance. While showing strong 4.0 star rating and good scheduling with 0% reschedules and first session rating 5.0 and low tutor reschedules 0%, the tutor faces challenges with 20% tech issue rate over 10 sessions. Current churn risk is 4.0%.",
+    "suggested_action": "Reduce tech issues (20%) through proactive equipment maintenance."
+  },
+  "T061": {
+    "why": "Score 80 reflects low dropout rate, strong ratings (4.1), good scheduling, great first session experience (5.0), strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 0.0%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T047": {
+    "why": "Score 81 reflects low dropout rate, minimal tech issues, good scheduling, great first session experience (4.0), strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 0.1%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T154": {
+    "why": "Score 81 reflects low dropout rate, minimal tech issues, good scheduling, great first session experience (5.0), strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 2.9%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T003": {
+    "why": "Score 83 reflects low dropout rate, strong ratings (4.1), good scheduling, great first session experience (4.0), strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 0.0%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T132": {
+    "why": "Score 83 reflects minimal tech issues, strong ratings (4.2), good scheduling, great first session experience (5.0), strong first session retention, reliable scheduling discipline over the last period. Churn risk remains low at 6.4%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T002": {
+    "why": "Score 84 reflects low dropout rate, minimal tech issues, strong ratings (4.0), good scheduling, great first session experience (5.0), strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 0.0%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T024": {
+    "why": "Score 87 reflects low dropout rate, strong ratings (4.1), good scheduling, great first session experience (5.0), strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 7.0%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T127": {
+    "why": "Score 88 reflects strong ratings (4.4), good scheduling, great first session experience (5.0), strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 4.0%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  },
+  "T152": {
+    "why": "Score 88 reflects low dropout rate, minimal tech issues, strong ratings (4.3), good scheduling, strong first session retention, reliable scheduling discipline, excellent attendance (few no-shows) over the last period. Churn risk remains low at 0.1%.",
+    "suggested_action": "Continue current practices and maintain performance standards."
+  }
+}

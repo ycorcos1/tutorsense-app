@@ -1,0 +1,5606 @@
+{
+  "generated_at": "2025-11-07T05:38:17.563Z",
+  "formula_version": "v2",
+  "tutors": [
+    {
+      "tutor_id": "T015",
+      "name": "Ethan Robinson",
+      "subject": "Math",
+      "score": 0,
+      "trend_7d": [
+        0,
+        5,
+        10,
+        21,
+        31,
+        26,
+        23
+      ],
+      "kpis": {
+        "avg_rating": 2.33,
+        "dropout_rate": 0.2941,
+        "tech_issue_rate": 0.1176,
+        "reschedule_rate": 0.1765,
+        "sessions_count": 17,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 50.8
+    },
+    {
+      "tutor_id": "T044",
+      "name": "Liam Williams",
+      "subject": "Science",
+      "score": 0,
+      "trend_7d": [
+        31,
+        28,
+        17,
+        17,
+        10,
+        7,
+        0
+      ],
+      "kpis": {
+        "avg_rating": 2,
+        "dropout_rate": 0.3571,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0.2143,
+        "sessions_count": 14,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0714
+      },
+      "churn_risk": 70.4
+    },
+    {
+      "tutor_id": "T067",
+      "name": "Chloe Taylor",
+      "subject": "Math",
+      "score": 0,
+      "trend_7d": [
+        48,
+        39,
+        30,
+        21,
+        35,
+        33,
+        39
+      ],
+      "kpis": {
+        "avg_rating": 2.27,
+        "dropout_rate": 0.3077,
+        "tech_issue_rate": 0.1538,
+        "reschedule_rate": 0.3077,
+        "sessions_count": 13,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.1538
+      },
+      "churn_risk": 62.9
+    },
+    {
+      "tutor_id": "T091",
+      "name": "Ava Torres",
+      "subject": "Math",
+      "score": 0,
+      "trend_7d": [
+        48,
+        35,
+        23,
+        20,
+        30,
+        27,
+        20
+      ],
+      "kpis": {
+        "avg_rating": 2,
+        "dropout_rate": 0.3,
+        "tech_issue_rate": 0.6,
+        "reschedule_rate": 0.3,
+        "sessions_count": 10,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 56
+    },
+    {
+      "tutor_id": "T153",
+      "name": "Layla Garcia",
+      "subject": "Science",
+      "score": 0,
+      "trend_7d": [
+        48,
+        33,
+        48,
+        19,
+        25,
+        10,
+        10
+      ],
+      "kpis": {
+        "avg_rating": 2.27,
+        "dropout_rate": 0.25,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 12,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0833
+      },
+      "churn_risk": 66.5
+    },
+    {
+      "tutor_id": "T191",
+      "name": "Caleb Green",
+      "subject": "Computer Science",
+      "score": 0,
+      "trend_7d": [
+        20,
+        13,
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kpis": {
+        "avg_rating": 1.25,
+        "dropout_rate": 0.2,
+        "tech_issue_rate": 0.2,
+        "reschedule_rate": 0,
+        "sessions_count": 5,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 42
+    },
+    {
+      "tutor_id": "T197",
+      "name": "Isabella Torres",
+      "subject": "Language Arts",
+      "score": 0,
+      "trend_7d": [
+        42,
+        38,
+        22,
+        31,
+        31,
+        31,
+        31
+      ],
+      "kpis": {
+        "avg_rating": 2.91,
+        "dropout_rate": 0.3333,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 59.3
+    },
+    {
+      "tutor_id": "T064",
+      "name": "Henry Adams",
+      "subject": "English",
+      "score": 1,
+      "trend_7d": [
+        1,
+        1,
+        3,
+        13,
+        23,
+        21,
+        16
+      ],
+      "kpis": {
+        "avg_rating": 1.83,
+        "dropout_rate": 0.2308,
+        "tech_issue_rate": 0.2308,
+        "reschedule_rate": 0.4615,
+        "sessions_count": 13,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0.8333,
+        "no_show_rate": 0
+      },
+      "churn_risk": 39.9
+    },
+    {
+      "tutor_id": "T138",
+      "name": "Luna Martinez",
+      "subject": "Math",
+      "score": 3,
+      "trend_7d": [
+        0,
+        0,
+        0,
+        7,
+        13,
+        27,
+        30
+      ],
+      "kpis": {
+        "avg_rating": 1.7,
+        "dropout_rate": 0.3846,
+        "tech_issue_rate": 0.1538,
+        "reschedule_rate": 0.2308,
+        "sessions_count": 13,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 49.4
+    },
+    {
+      "tutor_id": "T053",
+      "name": "Caleb Hall",
+      "subject": "History",
+      "score": 4,
+      "trend_7d": [
+        34,
+        23,
+        20,
+        13,
+        45,
+        45,
+        48
+      ],
+      "kpis": {
+        "avg_rating": 2.11,
+        "dropout_rate": 0.3,
+        "tech_issue_rate": 0.1,
+        "reschedule_rate": 0.2,
+        "sessions_count": 20,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 46
+    },
+    {
+      "tutor_id": "T074",
+      "name": "Ava Martinez",
+      "subject": "History",
+      "score": 4,
+      "trend_7d": [
+        0,
+        0,
+        3,
+        10,
+        23,
+        34,
+        40
+      ],
+      "kpis": {
+        "avg_rating": 1.94,
+        "dropout_rate": 0.4375,
+        "tech_issue_rate": 0.1875,
+        "reschedule_rate": 0.25,
+        "sessions_count": 16,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 51.5
+    },
+    {
+      "tutor_id": "T184",
+      "name": "Mia Thompson",
+      "subject": "Science",
+      "score": 6,
+      "trend_7d": [
+        80,
+        78,
+        60,
+        33,
+        9,
+        0,
+        0
+      ],
+      "kpis": {
+        "avg_rating": 3.31,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0556,
+        "sessions_count": 18,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.1111
+      },
+      "churn_risk": 56.8
+    },
+    {
+      "tutor_id": "T137",
+      "name": "Victoria Walker",
+      "subject": "English",
+      "score": 8,
+      "trend_7d": [
+        44,
+        61,
+        74,
+        74,
+        53,
+        43,
+        25
+      ],
+      "kpis": {
+        "avg_rating": 3.5,
+        "dropout_rate": 0.1176,
+        "tech_issue_rate": 0.1765,
+        "reschedule_rate": 0.0588,
+        "sessions_count": 17,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 53.7
+    },
+    {
+      "tutor_id": "T129",
+      "name": "Elijah King",
+      "subject": "Math",
+      "score": 9,
+      "trend_7d": [
+        34,
+        30,
+        39,
+        27,
+        20,
+        0,
+        0
+      ],
+      "kpis": {
+        "avg_rating": 3.43,
+        "dropout_rate": 0.125,
+        "tech_issue_rate": 0.125,
+        "reschedule_rate": 0.125,
+        "sessions_count": 8,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.125
+      },
+      "churn_risk": 57.7
+    },
+    {
+      "tutor_id": "T079",
+      "name": "Noah Johnson",
+      "subject": "Science",
+      "score": 11,
+      "trend_7d": [
+        11,
+        11,
+        20,
+        29,
+        30,
+        20,
+        12
+      ],
+      "kpis": {
+        "avg_rating": 2.45,
+        "dropout_rate": 0.3636,
+        "tech_issue_rate": 0.1818,
+        "reschedule_rate": 0.3636,
+        "sessions_count": 11,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 51.5
+    },
+    {
+      "tutor_id": "T098",
+      "name": "Mason Nelson",
+      "subject": "Computer Science",
+      "score": 11,
+      "trend_7d": [
+        20,
+        43,
+        69,
+        90,
+        90,
+        60,
+        46
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.2222,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1111,
+        "sessions_count": 9,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 47.9
+    },
+    {
+      "tutor_id": "T128",
+      "name": "Henry Adams",
+      "subject": "History",
+      "score": 14,
+      "trend_7d": [
+        60,
+        72,
+        84,
+        72,
+        66,
+        42,
+        51
+      ],
+      "kpis": {
+        "avg_rating": 3.26,
+        "dropout_rate": 0.0952,
+        "tech_issue_rate": 0.0952,
+        "reschedule_rate": 0.0952,
+        "sessions_count": 21,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 49.8
+    },
+    {
+      "tutor_id": "T157",
+      "name": "Luna Martinez",
+      "subject": "Math",
+      "score": 14,
+      "trend_7d": [
+        47,
+        31,
+        30,
+        25,
+        33,
+        42,
+        31
+      ],
+      "kpis": {
+        "avg_rating": 2.54,
+        "dropout_rate": 0.4,
+        "tech_issue_rate": 0.2,
+        "reschedule_rate": 0.0667,
+        "sessions_count": 15,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 60
+    },
+    {
+      "tutor_id": "T169",
+      "name": "Logan Rodriguez",
+      "subject": "Math",
+      "score": 14,
+      "trend_7d": [
+        96,
+        87,
+        55,
+        23,
+        0,
+        0,
+        0
+      ],
+      "kpis": {
+        "avg_rating": 3.8,
+        "dropout_rate": 0.0625,
+        "tech_issue_rate": 0.0625,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 51.5
+    },
+    {
+      "tutor_id": "T150",
+      "name": "Victoria Nguyen",
+      "subject": "English",
+      "score": 18,
+      "trend_7d": [
+        54,
+        45,
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "kpis": {
+        "avg_rating": 4.13,
+        "dropout_rate": 0.0625,
+        "tech_issue_rate": 0.0625,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 51.5
+    },
+    {
+      "tutor_id": "T182",
+      "name": "Liam Brown",
+      "subject": "Science",
+      "score": 18,
+      "trend_7d": [
+        68,
+        77,
+        84,
+        72,
+        48,
+        35,
+        23
+      ],
+      "kpis": {
+        "avg_rating": 3.55,
+        "dropout_rate": 0.1538,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0769,
+        "sessions_count": 13,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 55.2
+    },
+    {
+      "tutor_id": "T123",
+      "name": "Layla King",
+      "subject": "English",
+      "score": 20,
+      "trend_7d": [
+        58,
+        71,
+        91,
+        85,
+        53,
+        27,
+        0
+      ],
+      "kpis": {
+        "avg_rating": 3.91,
+        "dropout_rate": 0.1667,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 55.7
+    },
+    {
+      "tutor_id": "T192",
+      "name": "Lucas Taylor",
+      "subject": "Science",
+      "score": 20,
+      "trend_7d": [
+        40,
+        27,
+        52,
+        64,
+        84,
+        72,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 2.2,
+        "dropout_rate": 0.2857,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 7,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 40.4
+    },
+    {
+      "tutor_id": "T176",
+      "name": "Julian Scott",
+      "subject": "Computer Science",
+      "score": 21,
+      "trend_7d": [
+        22,
+        15,
+        36,
+        54,
+        53,
+        52,
+        30
+      ],
+      "kpis": {
+        "avg_rating": 2.54,
+        "dropout_rate": 0.2963,
+        "tech_issue_rate": 0.2222,
+        "reschedule_rate": 0.3333,
+        "sessions_count": 27,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.037
+      },
+      "churn_risk": 42
+    },
+    {
+      "tutor_id": "T122",
+      "name": "Scarlett Garcia",
+      "subject": "English",
+      "score": 23,
+      "trend_7d": [
+        50,
+        60,
+        80,
+        80,
+        80,
+        64,
+        56
+      ],
+      "kpis": {
+        "avg_rating": 3,
+        "dropout_rate": 0.1429,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 7,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 24.7
+    },
+    {
+      "tutor_id": "T175",
+      "name": "Lucas Nguyen",
+      "subject": "Science",
+      "score": 23,
+      "trend_7d": [
+        23,
+        43,
+        67,
+        92,
+        91,
+        59,
+        40
+      ],
+      "kpis": {
+        "avg_rating": 4.27,
+        "dropout_rate": 0.125,
+        "tech_issue_rate": 0.0625,
+        "reschedule_rate": 0.0625,
+        "sessions_count": 16,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 29
+    },
+    {
+      "tutor_id": "T006",
+      "name": "Sophia Thompson",
+      "subject": "English",
+      "score": 25,
+      "trend_7d": [
+        44,
+        56,
+        79,
+        88,
+        93,
+        68,
+        59
+      ],
+      "kpis": {
+        "avg_rating": 4.35,
+        "dropout_rate": 0.1667,
+        "tech_issue_rate": 0.2222,
+        "reschedule_rate": 0.1111,
+        "sessions_count": 18,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0556
+      },
+      "churn_risk": 47.3
+    },
+    {
+      "tutor_id": "T010",
+      "name": "Ethan White",
+      "subject": "Math",
+      "score": 25,
+      "trend_7d": [
+        45,
+        51,
+        63,
+        73,
+        69,
+        64,
+        48
+      ],
+      "kpis": {
+        "avg_rating": 3.83,
+        "dropout_rate": 0.1538,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0769,
+        "sessions_count": 13,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 48.2
+    },
+    {
+      "tutor_id": "T019",
+      "name": "Scarlett Johnson",
+      "subject": "Science",
+      "score": 25,
+      "trend_7d": [
+        25,
+        25,
+        30,
+        35,
+        40,
+        40,
+        40
+      ],
+      "kpis": {
+        "avg_rating": 3,
+        "dropout_rate": 0.125,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.125,
+        "sessions_count": 8,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.125
+      },
+      "churn_risk": 42.8
+    },
+    {
+      "tutor_id": "T145",
+      "name": "Noah Thompson",
+      "subject": "Math",
+      "score": 25,
+      "trend_7d": [
+        61,
+        50,
+        53,
+        28,
+        25,
+        20,
+        20
+      ],
+      "kpis": {
+        "avg_rating": 3.69,
+        "dropout_rate": 0.25,
+        "tech_issue_rate": 0.125,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 54
+    },
+    {
+      "tutor_id": "T034",
+      "name": "Harper Jackson",
+      "subject": "Science",
+      "score": 26,
+      "trend_7d": [
+        66,
+        64,
+        74,
+        62,
+        72,
+        60,
+        61
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.1053,
+        "tech_issue_rate": 0.1579,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 46.2
+    },
+    {
+      "tutor_id": "T130",
+      "name": "Ethan Thompson",
+      "subject": "Math",
+      "score": 26,
+      "trend_7d": [
+        49,
+        47,
+        55,
+        61,
+        79,
+        69,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 4.29,
+        "dropout_rate": 0.1667,
+        "tech_issue_rate": 0.1667,
+        "reschedule_rate": 0.0556,
+        "sessions_count": 18,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0556
+      },
+      "churn_risk": 47.3
+    },
+    {
+      "tutor_id": "T149",
+      "name": "Penelope Brown",
+      "subject": "Math",
+      "score": 29,
+      "trend_7d": [
+        79,
+        80,
+        79,
+        67,
+        60,
+        53,
+        49
+      ],
+      "kpis": {
+        "avg_rating": 3.38,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 18,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 44
+    },
+    {
+      "tutor_id": "T196",
+      "name": "Penelope Taylor",
+      "subject": "Science",
+      "score": 30,
+      "trend_7d": [
+        30,
+        33,
+        37,
+        36,
+        36,
+        36,
+        40
+      ],
+      "kpis": {
+        "avg_rating": 3.45,
+        "dropout_rate": 0.3333,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 47.3
+    },
+    {
+      "tutor_id": "T072",
+      "name": "Amelia Thompson",
+      "subject": "Test Prep",
+      "score": 31,
+      "trend_7d": [
+        96,
+        96,
+        96,
+        96,
+        72,
+        53,
+        32
+      ],
+      "kpis": {
+        "avg_rating": 3.5,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 12,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 44
+    },
+    {
+      "tutor_id": "T162",
+      "name": "Layla Robinson",
+      "subject": "Math",
+      "score": 32,
+      "trend_7d": [
+        57,
+        65,
+        67,
+        40,
+        13,
+        0,
+        0
+      ],
+      "kpis": {
+        "avg_rating": 3.56,
+        "dropout_rate": 0.1818,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 11,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0909
+      },
+      "churn_risk": 39
+    },
+    {
+      "tutor_id": "T013",
+      "name": "Logan Wright",
+      "subject": "History",
+      "score": 33,
+      "trend_7d": [
+        60,
+        60,
+        77,
+        80,
+        87,
+        67,
+        56
+      ],
+      "kpis": {
+        "avg_rating": 4.24,
+        "dropout_rate": 0.0526,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 44.1
+    },
+    {
+      "tutor_id": "T040",
+      "name": "Caleb Nguyen",
+      "subject": "History",
+      "score": 36,
+      "trend_7d": [
+        66,
+        66,
+        70,
+        58,
+        47,
+        31,
+        31
+      ],
+      "kpis": {
+        "avg_rating": 3.57,
+        "dropout_rate": 0.25,
+        "tech_issue_rate": 0.125,
+        "reschedule_rate": 0,
+        "sessions_count": 8,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 39
+    },
+    {
+      "tutor_id": "T057",
+      "name": "Ethan Martinez",
+      "subject": "Computer Science",
+      "score": 36,
+      "trend_7d": [
+        40,
+        43,
+        57,
+        70,
+        80,
+        67,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 3.33,
+        "dropout_rate": 0.0625,
+        "tech_issue_rate": 0.0625,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 36.5
+    },
+    {
+      "tutor_id": "T151",
+      "name": "Chloe Scott",
+      "subject": "Computer Science",
+      "score": 36,
+      "trend_7d": [
+        75,
+        76,
+        61,
+        72,
+        59,
+        59,
+        40
+      ],
+      "kpis": {
+        "avg_rating": 3.35,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1053,
+        "reschedule_rate": 0.1579,
+        "sessions_count": 19,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 44
+    },
+    {
+      "tutor_id": "T069",
+      "name": "Caleb Johnson",
+      "subject": "English",
+      "score": 37,
+      "trend_7d": [
+        65,
+        63,
+        60,
+        60,
+        51,
+        45,
+        37
+      ],
+      "kpis": {
+        "avg_rating": 3.33,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 12,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 44
+    },
+    {
+      "tutor_id": "T035",
+      "name": "Mia Clark",
+      "subject": "Science",
+      "score": 38,
+      "trend_7d": [
+        49,
+        53,
+        60,
+        72,
+        79,
+        79,
+        70
+      ],
+      "kpis": {
+        "avg_rating": 3.08,
+        "dropout_rate": 0.0667,
+        "tech_issue_rate": 0.1333,
+        "reschedule_rate": 0.0667,
+        "sessions_count": 15,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0667
+      },
+      "churn_risk": 33.7
+    },
+    {
+      "tutor_id": "T135",
+      "name": "Penelope White",
+      "subject": "Science",
+      "score": 38,
+      "trend_7d": [
+        40,
+        47,
+        60,
+        72,
+        65,
+        59,
+        40
+      ],
+      "kpis": {
+        "avg_rating": 3.27,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0909,
+        "sessions_count": 11,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 37
+    },
+    {
+      "tutor_id": "T001",
+      "name": "Alexander White",
+      "subject": "English",
+      "score": 39,
+      "trend_7d": [
+        68,
+        72,
+        81,
+        65,
+        71,
+        68,
+        77
+      ],
+      "kpis": {
+        "avg_rating": 4.08,
+        "dropout_rate": 0.2308,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0769,
+        "sessions_count": 13,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0769
+      },
+      "churn_risk": 45.5
+    },
+    {
+      "tutor_id": "T115",
+      "name": "Mason Scott",
+      "subject": "Science",
+      "score": 39,
+      "trend_7d": [
+        76,
+        77,
+        77,
+        80,
+        80,
+        54,
+        42
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0.2143,
+        "tech_issue_rate": 0.0714,
+        "reschedule_rate": 0,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0714
+      },
+      "churn_risk": 39.7
+    },
+    {
+      "tutor_id": "T020",
+      "name": "Ava Thompson",
+      "subject": "Language Arts",
+      "score": 40,
+      "trend_7d": [
+        80,
+        80,
+        85,
+        72,
+        77,
+        77,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 3.23,
+        "dropout_rate": 0.1875,
+        "tech_issue_rate": 0.125,
+        "reschedule_rate": 0.0625,
+        "sessions_count": 16,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 36.5
+    },
+    {
+      "tutor_id": "T093",
+      "name": "Benjamin Clark",
+      "subject": "English",
+      "score": 40,
+      "trend_7d": [
+        78,
+        59,
+        45,
+        37,
+        43,
+        50,
+        40
+      ],
+      "kpis": {
+        "avg_rating": 3.55,
+        "dropout_rate": 0.0455,
+        "tech_issue_rate": 0.0455,
+        "reschedule_rate": 0.0455,
+        "sessions_count": 22,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 45.8
+    },
+    {
+      "tutor_id": "T085",
+      "name": "Harper Garcia",
+      "subject": "Science",
+      "score": 41,
+      "trend_7d": [
+        78,
+        72,
+        58,
+        42,
+        54,
+        49,
+        68
+      ],
+      "kpis": {
+        "avg_rating": 3.89,
+        "dropout_rate": 0.0952,
+        "tech_issue_rate": 0.0476,
+        "reschedule_rate": 0.0476,
+        "sessions_count": 21,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0476
+      },
+      "churn_risk": 46.2
+    },
+    {
+      "tutor_id": "T101",
+      "name": "Liam Harris",
+      "subject": "History",
+      "score": 41,
+      "trend_7d": [
+        70,
+        70,
+        79,
+        70,
+        62,
+        41,
+        39
+      ],
+      "kpis": {
+        "avg_rating": 3.25,
+        "dropout_rate": 0.1538,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1538,
+        "sessions_count": 13,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 45.2
+    },
+    {
+      "tutor_id": "T114",
+      "name": "Penelope Harris",
+      "subject": "Science",
+      "score": 41,
+      "trend_7d": [
+        62,
+        73,
+        80,
+        72,
+        60,
+        53,
+        49
+      ],
+      "kpis": {
+        "avg_rating": 3.65,
+        "dropout_rate": 0.0526,
+        "tech_issue_rate": 0.0526,
+        "reschedule_rate": 0.0526,
+        "sessions_count": 19,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 43.1
+    },
+    {
+      "tutor_id": "T082",
+      "name": "Elijah Wright",
+      "subject": "Science",
+      "score": 42,
+      "trend_7d": [
+        42,
+        35,
+        45,
+        51,
+        64,
+        59,
+        59
+      ],
+      "kpis": {
+        "avg_rating": 3.82,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0.1818,
+        "sessions_count": 11,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 34
+    },
+    {
+      "tutor_id": "T056",
+      "name": "Logan Allen",
+      "subject": "History",
+      "score": 43,
+      "trend_7d": [
+        44,
+        49,
+        67,
+        84,
+        91,
+        70,
+        57
+      ],
+      "kpis": {
+        "avg_rating": 3.7,
+        "dropout_rate": 0.2,
+        "tech_issue_rate": 0.0667,
+        "reschedule_rate": 0.0667,
+        "sessions_count": 15,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0667
+      },
+      "churn_risk": 39
+    },
+    {
+      "tutor_id": "T087",
+      "name": "Scarlett Wright",
+      "subject": "Computer Science",
+      "score": 43,
+      "trend_7d": [
+        32,
+        48,
+        60,
+        73,
+        79,
+        62,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0.1765,
+        "tech_issue_rate": 0.0588,
+        "reschedule_rate": 0,
+        "sessions_count": 17,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 26.1
+    },
+    {
+      "tutor_id": "T088",
+      "name": "Emma Hall",
+      "subject": "Test Prep",
+      "score": 43,
+      "trend_7d": [
+        32,
+        24,
+        17,
+        26,
+        35,
+        43,
+        48
+      ],
+      "kpis": {
+        "avg_rating": 3.75,
+        "dropout_rate": 0.25,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 39
+    },
+    {
+      "tutor_id": "T136",
+      "name": "Ava Thompson",
+      "subject": "English",
+      "score": 43,
+      "trend_7d": [
+        43,
+        61,
+        59,
+        65,
+        53,
+        60,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 3.5,
+        "dropout_rate": 0.2143,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0714,
+        "sessions_count": 14,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 37.6
+    },
+    {
+      "tutor_id": "T134",
+      "name": "Mason Johnson",
+      "subject": "English",
+      "score": 44,
+      "trend_7d": [
+        79,
+        75,
+        74,
+        62,
+        60,
+        60,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 3.5,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0.0556,
+        "sessions_count": 18,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 43.4
+    },
+    {
+      "tutor_id": "T164",
+      "name": "Avery Garcia",
+      "subject": "English",
+      "score": 44,
+      "trend_7d": [
+        96,
+        79,
+        61,
+        44,
+        49,
+        55,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 3.85,
+        "dropout_rate": 0.1429,
+        "tech_issue_rate": 0.0714,
+        "reschedule_rate": 0.2143,
+        "sessions_count": 14,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0714
+      },
+      "churn_risk": 46.9
+    },
+    {
+      "tutor_id": "T078",
+      "name": "Ethan Harris",
+      "subject": "English",
+      "score": 45,
+      "trend_7d": [
+        60,
+        67,
+        80,
+        80,
+        80,
+        73,
+        70
+      ],
+      "kpis": {
+        "avg_rating": 3.81,
+        "dropout_rate": 0.1765,
+        "tech_issue_rate": 0.1176,
+        "reschedule_rate": 0.1176,
+        "sessions_count": 17,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 36.1
+    },
+    {
+      "tutor_id": "T026",
+      "name": "Caleb Harris",
+      "subject": "Computer Science",
+      "score": 46,
+      "trend_7d": [
+        96,
+        96,
+        96,
+        91,
+        85,
+        73,
+        69
+      ],
+      "kpis": {
+        "avg_rating": 4.18,
+        "dropout_rate": 0.0588,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0588,
+        "sessions_count": 17,
+        "first_session_avg_rating": 2,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0588
+      },
+      "churn_risk": 48.1
+    },
+    {
+      "tutor_id": "T032",
+      "name": "Penelope Garcia",
+      "subject": "Math",
+      "score": 46,
+      "trend_7d": [
+        62,
+        56,
+        43,
+        55,
+        68,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.2,
+        "dropout_rate": 0.1765,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1176,
+        "sessions_count": 17,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0588
+      },
+      "churn_risk": 37.8
+    },
+    {
+      "tutor_id": "T107",
+      "name": "Emma Harris",
+      "subject": "English",
+      "score": 46,
+      "trend_7d": [
+        64,
+        69,
+        73,
+        68,
+        58,
+        50,
+        52
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.1667,
+        "tech_issue_rate": 0.2222,
+        "reschedule_rate": 0.1111,
+        "sessions_count": 18,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 42.7
+    },
+    {
+      "tutor_id": "T139",
+      "name": "Liam Rodriguez",
+      "subject": "English",
+      "score": 46,
+      "trend_7d": [
+        73,
+        75,
+        72,
+        48,
+        24,
+        25,
+        34
+      ],
+      "kpis": {
+        "avg_rating": 3.57,
+        "dropout_rate": 0.0588,
+        "tech_issue_rate": 0.1176,
+        "reschedule_rate": 0.1176,
+        "sessions_count": 17,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 41.4
+    },
+    {
+      "tutor_id": "T023",
+      "name": "Amelia Lewis",
+      "subject": "English",
+      "score": 47,
+      "trend_7d": [
+        38,
+        45,
+        60,
+        48,
+        60,
+        72,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 3.42,
+        "dropout_rate": 0.1667,
+        "tech_issue_rate": 0.25,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 12,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0833
+      },
+      "churn_risk": 38.2
+    },
+    {
+      "tutor_id": "T081",
+      "name": "Penelope Robinson",
+      "subject": "Science",
+      "score": 47,
+      "trend_7d": [
+        47,
+        49,
+        53,
+        58,
+        60,
+        50,
+        45
+      ],
+      "kpis": {
+        "avg_rating": 3.4,
+        "dropout_rate": 0.1667,
+        "tech_issue_rate": 0.1667,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 12,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 38.7
+    },
+    {
+      "tutor_id": "T146",
+      "name": "Liam Williams",
+      "subject": "English",
+      "score": 47,
+      "trend_7d": [
+        72,
+        75,
+        63,
+        56,
+        36,
+        46,
+        47
+      ],
+      "kpis": {
+        "avg_rating": 3.95,
+        "dropout_rate": 0.1739,
+        "tech_issue_rate": 0.0435,
+        "reschedule_rate": 0.087,
+        "sessions_count": 23,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0435
+      },
+      "churn_risk": 47.3
+    },
+    {
+      "tutor_id": "T097",
+      "name": "Scarlett Martinez",
+      "subject": "Math",
+      "score": 48,
+      "trend_7d": [
+        64,
+        56,
+        56,
+        53,
+        50,
+        31,
+        31
+      ],
+      "kpis": {
+        "avg_rating": 4.36,
+        "dropout_rate": 0.1429,
+        "tech_issue_rate": 0.2857,
+        "reschedule_rate": 0,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 34.7
+    },
+    {
+      "tutor_id": "T111",
+      "name": "Luna Hill",
+      "subject": "Test Prep",
+      "score": 48,
+      "trend_7d": [
+        67,
+        65,
+        74,
+        83,
+        89,
+        69,
+        58
+      ],
+      "kpis": {
+        "avg_rating": 3.84,
+        "dropout_rate": 0.0476,
+        "tech_issue_rate": 0.1905,
+        "reschedule_rate": 0.0952,
+        "sessions_count": 21,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 37.9
+    },
+    {
+      "tutor_id": "T121",
+      "name": "Ava White",
+      "subject": "Language Arts",
+      "score": 48,
+      "trend_7d": [
+        71,
+        60,
+        54,
+        59,
+        52,
+        45,
+        20
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 18,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 1,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0556
+      },
+      "churn_risk": 35.1
+    },
+    {
+      "tutor_id": "T161",
+      "name": "Evelyn Hill",
+      "subject": "History",
+      "score": 48,
+      "trend_7d": [
+        65,
+        70,
+        86,
+        91,
+        96,
+        84,
+        78
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.1538,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0769,
+        "sessions_count": 13,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0769
+      },
+      "churn_risk": 37.5
+    },
+    {
+      "tutor_id": "T170",
+      "name": "Ethan Walker",
+      "subject": "Computer Science",
+      "score": 48,
+      "trend_7d": [
+        73,
+        61,
+        47,
+        39,
+        53,
+        67,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.56,
+        "dropout_rate": 0.1667,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 12,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0833
+      },
+      "churn_risk": 38.2
+    },
+    {
+      "tutor_id": "T198",
+      "name": "Julian Hall",
+      "subject": "Language Arts",
+      "score": 48,
+      "trend_7d": [
+        72,
+        80,
+        86,
+        74,
+        62,
+        60,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 4.27,
+        "dropout_rate": 0.2857,
+        "tech_issue_rate": 0.0714,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 14,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 47.4
+    },
+    {
+      "tutor_id": "T039",
+      "name": "Mason Adams",
+      "subject": "English",
+      "score": 49,
+      "trend_7d": [
+        58,
+        48,
+        41,
+        62,
+        84,
+        84,
+        78
+      ],
+      "kpis": {
+        "avg_rating": 3.84,
+        "dropout_rate": 0.0952,
+        "tech_issue_rate": 0.0476,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 21,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 32.8
+    },
+    {
+      "tutor_id": "T100",
+      "name": "Victoria King",
+      "subject": "Computer Science",
+      "score": 49,
+      "trend_7d": [
+        49,
+        49,
+        53,
+        61,
+        56,
+        53,
+        44
+      ],
+      "kpis": {
+        "avg_rating": 3.42,
+        "dropout_rate": 0.0667,
+        "tech_issue_rate": 0.1333,
+        "reschedule_rate": 0.2,
+        "sessions_count": 15,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0.6667,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28
+    },
+    {
+      "tutor_id": "T105",
+      "name": "Mia Thompson",
+      "subject": "Math",
+      "score": 49,
+      "trend_7d": [
+        49,
+        49,
+        63,
+        62,
+        72,
+        62,
+        69
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.0909,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0.1818,
+        "sessions_count": 11,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 32.6
+    },
+    {
+      "tutor_id": "T183",
+      "name": "Henry Martinez",
+      "subject": "English",
+      "score": 49,
+      "trend_7d": [
+        96,
+        86,
+        76,
+        66,
+        59,
+        57,
+        53
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.2,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0667,
+        "sessions_count": 15,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 47
+    },
+    {
+      "tutor_id": "T189",
+      "name": "Liam King",
+      "subject": "Language Arts",
+      "score": 50,
+      "trend_7d": [
+        40,
+        30,
+        23,
+        20,
+        27,
+        52,
+        63
+      ],
+      "kpis": {
+        "avg_rating": 3.5,
+        "dropout_rate": 0.1818,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0.1818,
+        "sessions_count": 11,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0909
+      },
+      "churn_risk": 35
+    },
+    {
+      "tutor_id": "T059",
+      "name": "Penelope Young",
+      "subject": "English",
+      "score": 51,
+      "trend_7d": [
+        51,
+        56,
+        66,
+        76,
+        81,
+        74,
+        71
+      ],
+      "kpis": {
+        "avg_rating": 4.11,
+        "dropout_rate": 0.1429,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0952,
+        "sessions_count": 21,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0476
+      },
+      "churn_risk": 32.1
+    },
+    {
+      "tutor_id": "T092",
+      "name": "Layla Walker",
+      "subject": "Science",
+      "score": 51,
+      "trend_7d": [
+        57,
+        68,
+        61,
+        60,
+        50,
+        59,
+        66
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.0952,
+        "tech_issue_rate": 0.0476,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 21,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28.8
+    },
+    {
+      "tutor_id": "T119",
+      "name": "Benjamin Scott",
+      "subject": "Computer Science",
+      "score": 51,
+      "trend_7d": [
+        51,
+        59,
+        67,
+        61,
+        41,
+        42,
+        46
+      ],
+      "kpis": {
+        "avg_rating": 3.42,
+        "dropout_rate": 0.1538,
+        "tech_issue_rate": 0.0769,
+        "reschedule_rate": 0.3077,
+        "sessions_count": 13,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 34.2
+    },
+    {
+      "tutor_id": "T004",
+      "name": "Avery Robinson",
+      "subject": "Science",
+      "score": 52,
+      "trend_7d": [
+        74,
+        52,
+        49,
+        47,
+        67,
+        79,
+        73
+      ],
+      "kpis": {
+        "avg_rating": 3.65,
+        "dropout_rate": 0.1818,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0.0909,
+        "sessions_count": 22,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 35.3
+    },
+    {
+      "tutor_id": "T012",
+      "name": "Scarlett Thomas",
+      "subject": "Science",
+      "score": 52,
+      "trend_7d": [
+        67,
+        72,
+        82,
+        73,
+        63,
+        68,
+        75
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0.1,
+        "tech_issue_rate": 0.05,
+        "reschedule_rate": 0.15,
+        "sessions_count": 20,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 29
+    },
+    {
+      "tutor_id": "T030",
+      "name": "Isabella Williams",
+      "subject": "History",
+      "score": 52,
+      "trend_7d": [
+        45,
+        44,
+        56,
+        69,
+        84,
+        64,
+        53
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.2308,
+        "tech_issue_rate": 0.0769,
+        "reschedule_rate": 0,
+        "sessions_count": 13,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 19.2
+    },
+    {
+      "tutor_id": "T050",
+      "name": "Evelyn Anderson",
+      "subject": "Science",
+      "score": 52,
+      "trend_7d": [
+        74,
+        76,
+        85,
+        80,
+        67,
+        60,
+        50
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1538,
+        "reschedule_rate": 0.0769,
+        "sessions_count": 13,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 35
+    },
+    {
+      "tutor_id": "T066",
+      "name": "Ava Brown",
+      "subject": "Computer Science",
+      "score": 52,
+      "trend_7d": [
+        79,
+        73,
+        62,
+        61,
+        73,
+        77,
+        78
+      ],
+      "kpis": {
+        "avg_rating": 4.12,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0.0556,
+        "reschedule_rate": 0.0556,
+        "sessions_count": 18,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 32.4
+    },
+    {
+      "tutor_id": "T089",
+      "name": "Amelia Harris",
+      "subject": "English",
+      "score": 52,
+      "trend_7d": [
+        80,
+        77,
+        69,
+        61,
+        56,
+        56,
+        56
+      ],
+      "kpis": {
+        "avg_rating": 4.18,
+        "dropout_rate": 0.0588,
+        "tech_issue_rate": 0.1176,
+        "reschedule_rate": 0.1765,
+        "sessions_count": 17,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 37.4
+    },
+    {
+      "tutor_id": "T116",
+      "name": "Zoey Martin",
+      "subject": "Computer Science",
+      "score": 52,
+      "trend_7d": [
+        88,
+        85,
+        63,
+        45,
+        28,
+        28,
+        28
+      ],
+      "kpis": {
+        "avg_rating": 4.25,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.25,
+        "sessions_count": 4,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 35
+    },
+    {
+      "tutor_id": "T131",
+      "name": "Caleb Anderson",
+      "subject": "Science",
+      "score": 52,
+      "trend_7d": [
+        80,
+        78,
+        78,
+        78,
+        80,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.8,
+        "dropout_rate": 0.2,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1,
+        "sessions_count": 10,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.1
+      },
+      "churn_risk": 39
+    },
+    {
+      "tutor_id": "T060",
+      "name": "Ava Taylor",
+      "subject": "Language Arts",
+      "score": 53,
+      "trend_7d": [
+        48,
+        47,
+        37,
+        28,
+        34,
+        54,
+        71
+      ],
+      "kpis": {
+        "avg_rating": 3.78,
+        "dropout_rate": 0.1,
+        "tech_issue_rate": 0.15,
+        "reschedule_rate": 0.1,
+        "sessions_count": 20,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.05
+      },
+      "churn_risk": 30.5
+    },
+    {
+      "tutor_id": "T027",
+      "name": "Julian Hill",
+      "subject": "Test Prep",
+      "score": 54,
+      "trend_7d": [
+        89,
+        86,
+        83,
+        80,
+        80,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.75,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0.1111,
+        "sessions_count": 18,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 36.4
+    },
+    {
+      "tutor_id": "T031",
+      "name": "Chloe Robinson",
+      "subject": "History",
+      "score": 54,
+      "trend_7d": [
+        54,
+        54,
+        54,
+        36,
+        31,
+        39,
+        59
+      ],
+      "kpis": {
+        "avg_rating": 3.27,
+        "dropout_rate": 0.0769,
+        "tech_issue_rate": 0.0769,
+        "reschedule_rate": 0.1538,
+        "sessions_count": 13,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 31.1
+    },
+    {
+      "tutor_id": "T049",
+      "name": "Penelope Adams",
+      "subject": "Science",
+      "score": 54,
+      "trend_7d": [
+        54,
+        54,
+        57,
+        59,
+        62,
+        67,
+        69
+      ],
+      "kpis": {
+        "avg_rating": 3.88,
+        "dropout_rate": 0.1875,
+        "tech_issue_rate": 0.1875,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0625
+      },
+      "churn_risk": 34.4
+    },
+    {
+      "tutor_id": "T083",
+      "name": "Noah Robinson",
+      "subject": "Test Prep",
+      "score": 54,
+      "trend_7d": [
+        46,
+        42,
+        62,
+        70,
+        79,
+        79,
+        71
+      ],
+      "kpis": {
+        "avg_rating": 4.06,
+        "dropout_rate": 0.1579,
+        "tech_issue_rate": 0.1579,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0526
+      },
+      "churn_risk": 32.9
+    },
+    {
+      "tutor_id": "T086",
+      "name": "Elijah Adams",
+      "subject": "History",
+      "score": 54,
+      "trend_7d": [
+        87,
+        85,
+        71,
+        66,
+        71,
+        66,
+        58
+      ],
+      "kpis": {
+        "avg_rating": 3.86,
+        "dropout_rate": 0.0833,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.0417,
+        "sessions_count": 24,
+        "first_session_avg_rating": 1,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 23.3
+    },
+    {
+      "tutor_id": "T094",
+      "name": "Avery Hall",
+      "subject": "Language Arts",
+      "score": 54,
+      "trend_7d": [
+        54,
+        54,
+        54,
+        54,
+        54,
+        54,
+        54
+      ],
+      "kpis": {
+        "avg_rating": 3.6,
+        "dropout_rate": 0.4,
+        "tech_issue_rate": 0.2,
+        "reschedule_rate": 0,
+        "sessions_count": 5,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 24
+    },
+    {
+      "tutor_id": "T110",
+      "name": "Julian Young",
+      "subject": "English",
+      "score": 54,
+      "trend_7d": [
+        50,
+        43,
+        39,
+        28,
+        28,
+        45,
+        53
+      ],
+      "kpis": {
+        "avg_rating": 3,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.2,
+        "sessions_count": 10,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28
+    },
+    {
+      "tutor_id": "T112",
+      "name": "Caleb Anderson",
+      "subject": "English",
+      "score": 54,
+      "trend_7d": [
+        65,
+        59,
+        49,
+        49,
+        65,
+        75,
+        89
+      ],
+      "kpis": {
+        "avg_rating": 3.75,
+        "dropout_rate": 0.25,
+        "tech_issue_rate": 0.1667,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 35
+    },
+    {
+      "tutor_id": "T143",
+      "name": "Noah Allen",
+      "subject": "English",
+      "score": 54,
+      "trend_7d": [
+        52,
+        58,
+        72,
+        73,
+        77,
+        78,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.54,
+        "dropout_rate": 0.0769,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1538,
+        "sessions_count": 13,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28.1
+    },
+    {
+      "tutor_id": "T173",
+      "name": "Logan White",
+      "subject": "Language Arts",
+      "score": 54,
+      "trend_7d": [
+        51,
+        54,
+        63,
+        79,
+        91,
+        84,
+        78
+      ],
+      "kpis": {
+        "avg_rating": 3.92,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0714,
+        "sessions_count": 14,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 25
+    },
+    {
+      "tutor_id": "T033",
+      "name": "Logan Anderson",
+      "subject": "English",
+      "score": 55,
+      "trend_7d": [
+        58,
+        45,
+        20,
+        40,
+        48,
+        68,
+        63
+      ],
+      "kpis": {
+        "avg_rating": 3.69,
+        "dropout_rate": 0.1176,
+        "tech_issue_rate": 0.0588,
+        "reschedule_rate": 0.0588,
+        "sessions_count": 17,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 32.7
+    },
+    {
+      "tutor_id": "T147",
+      "name": "Liam Nelson",
+      "subject": "Math",
+      "score": 55,
+      "trend_7d": [
+        86,
+        67,
+        63,
+        63,
+        80,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.83,
+        "dropout_rate": 0.2,
+        "tech_issue_rate": 0.05,
+        "reschedule_rate": 0.05,
+        "sessions_count": 20,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 36
+    },
+    {
+      "tutor_id": "T158",
+      "name": "Zoey Wright",
+      "subject": "Math",
+      "score": 55,
+      "trend_7d": [
+        28,
+        42,
+        47,
+        61,
+        68,
+        72,
+        87
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0.12,
+        "tech_issue_rate": 0.16,
+        "reschedule_rate": 0.08,
+        "sessions_count": 25,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.04
+      },
+      "churn_risk": 31
+    },
+    {
+      "tutor_id": "T171",
+      "name": "Henry Johnson",
+      "subject": "English",
+      "score": 55,
+      "trend_7d": [
+        78,
+        66,
+        72,
+        61,
+        71,
+        60,
+        68
+      ],
+      "kpis": {
+        "avg_rating": 3.74,
+        "dropout_rate": 0.125,
+        "tech_issue_rate": 0.0417,
+        "reschedule_rate": 0.125,
+        "sessions_count": 24,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.125
+      },
+      "churn_risk": 40.8
+    },
+    {
+      "tutor_id": "T172",
+      "name": "Emma Martinez",
+      "subject": "Math",
+      "score": 55,
+      "trend_7d": [
+        68,
+        63,
+        71,
+        77,
+        72,
+        67,
+        52
+      ],
+      "kpis": {
+        "avg_rating": 3.82,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1538,
+        "reschedule_rate": 0.2308,
+        "sessions_count": 13,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 35
+    },
+    {
+      "tutor_id": "T179",
+      "name": "Avery Green",
+      "subject": "Science",
+      "score": 55,
+      "trend_7d": [
+        59,
+        49,
+        46,
+        27,
+        37,
+        56,
+        74
+      ],
+      "kpis": {
+        "avg_rating": 4.26,
+        "dropout_rate": 0.2105,
+        "tech_issue_rate": 0.1053,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.1053
+      },
+      "churn_risk": 36.6
+    },
+    {
+      "tutor_id": "T045",
+      "name": "Alexander Harris",
+      "subject": "Computer Science",
+      "score": 56,
+      "trend_7d": [
+        68,
+        72,
+        80,
+        66,
+        52,
+        53,
+        61
+      ],
+      "kpis": {
+        "avg_rating": 3.87,
+        "dropout_rate": 0.1176,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1176,
+        "sessions_count": 17,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0588
+      },
+      "churn_risk": 34.5
+    },
+    {
+      "tutor_id": "T167",
+      "name": "Scarlett Brown",
+      "subject": "Test Prep",
+      "score": 56,
+      "trend_7d": [
+        52,
+        61,
+        56,
+        67,
+        63,
+        61,
+        71
+      ],
+      "kpis": {
+        "avg_rating": 3.75,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.2143,
+        "sessions_count": 14,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 25
+    },
+    {
+      "tutor_id": "T188",
+      "name": "Mason Martinez",
+      "subject": "Math",
+      "score": 56,
+      "trend_7d": [
+        96,
+        96,
+        85,
+        70,
+        51,
+        62,
+        68
+      ],
+      "kpis": {
+        "avg_rating": 4.11,
+        "dropout_rate": 0.4,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1,
+        "sessions_count": 10,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 51
+    },
+    {
+      "tutor_id": "T200",
+      "name": "Benjamin Nguyen",
+      "subject": "Science",
+      "score": 56,
+      "trend_7d": [
+        68,
+        72,
+        75,
+        73,
+        63,
+        57,
+        48
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.2105,
+        "tech_issue_rate": 0.0526,
+        "reschedule_rate": 0.0526,
+        "sessions_count": 19,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 43.4
+    },
+    {
+      "tutor_id": "T029",
+      "name": "Noah Thompson",
+      "subject": "Science",
+      "score": 57,
+      "trend_7d": [
+        80,
+        74,
+        63,
+        74,
+        80,
+        79,
+        71
+      ],
+      "kpis": {
+        "avg_rating": 3.87,
+        "dropout_rate": 0.125,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0625,
+        "sessions_count": 16,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 37
+    },
+    {
+      "tutor_id": "T038",
+      "name": "Victoria Torres",
+      "subject": "English",
+      "score": 57,
+      "trend_7d": [
+        49,
+        46,
+        41,
+        42,
+        49,
+        67,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0.0909,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0.1818,
+        "sessions_count": 11,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28.6
+    },
+    {
+      "tutor_id": "T058",
+      "name": "Evelyn Scott",
+      "subject": "English",
+      "score": 57,
+      "trend_7d": [
+        53,
+        62,
+        64,
+        69,
+        63,
+        63,
+        63
+      ],
+      "kpis": {
+        "avg_rating": 3.93,
+        "dropout_rate": 0.1333,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.2,
+        "sessions_count": 15,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 30.3
+    },
+    {
+      "tutor_id": "T073",
+      "name": "Chloe Robinson",
+      "subject": "Science",
+      "score": 57,
+      "trend_7d": [
+        54,
+        52,
+        52,
+        53,
+        55,
+        57,
+        58
+      ],
+      "kpis": {
+        "avg_rating": 3.33,
+        "dropout_rate": 0.25,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0,
+        "sessions_count": 12,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0833
+      },
+      "churn_risk": 20.5
+    },
+    {
+      "tutor_id": "T077",
+      "name": "Isabella Thompson",
+      "subject": "Math",
+      "score": 57,
+      "trend_7d": [
+        50,
+        51,
+        57,
+        72,
+        86,
+        92,
+        90
+      ],
+      "kpis": {
+        "avg_rating": 3.8,
+        "dropout_rate": 0.1875,
+        "tech_issue_rate": 0.125,
+        "reschedule_rate": 0.0625,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 32.5
+    },
+    {
+      "tutor_id": "T117",
+      "name": "Luna Jackson",
+      "subject": "Math",
+      "score": 57,
+      "trend_7d": [
+        57,
+        57,
+        57,
+        38,
+        51,
+        56,
+        84
+      ],
+      "kpis": {
+        "avg_rating": 3.46,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0625,
+        "sessions_count": 16,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 25
+    },
+    {
+      "tutor_id": "T133",
+      "name": "Henry Williams",
+      "subject": "Test Prep",
+      "score": 57,
+      "trend_7d": [
+        57,
+        57,
+        59,
+        67,
+        75,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.86,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0.2143,
+        "sessions_count": 14,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 25
+    },
+    {
+      "tutor_id": "T178",
+      "name": "Harper Martin",
+      "subject": "Science",
+      "score": 57,
+      "trend_7d": [
+        60,
+        60,
+        72,
+        79,
+        78,
+        56,
+        43
+      ],
+      "kpis": {
+        "avg_rating": 3.88,
+        "dropout_rate": 0.0476,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 21,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 36.9
+    },
+    {
+      "tutor_id": "T190",
+      "name": "Mason Clark",
+      "subject": "Math",
+      "score": 57,
+      "trend_7d": [
+        58,
+        57,
+        64,
+        77,
+        85,
+        79,
+        71
+      ],
+      "kpis": {
+        "avg_rating": 4.19,
+        "dropout_rate": 0.2174,
+        "tech_issue_rate": 0.1304,
+        "reschedule_rate": 0.1739,
+        "sessions_count": 23,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.087
+      },
+      "churn_risk": 36.3
+    },
+    {
+      "tutor_id": "T193",
+      "name": "Ethan Martin",
+      "subject": "History",
+      "score": 57,
+      "trend_7d": [
+        41,
+        50,
+        68,
+        68,
+        66,
+        63,
+        61
+      ],
+      "kpis": {
+        "avg_rating": 3.69,
+        "dropout_rate": 0.0667,
+        "tech_issue_rate": 0.1333,
+        "reschedule_rate": 0.2667,
+        "sessions_count": 15,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 27.7
+    },
+    {
+      "tutor_id": "T080",
+      "name": "Julian Adams",
+      "subject": "Math",
+      "score": 58,
+      "trend_7d": [
+        52,
+        56,
+        51,
+        69,
+        75,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.88,
+        "dropout_rate": 0.0588,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.2353,
+        "sessions_count": 17,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 27.4
+    },
+    {
+      "tutor_id": "T177",
+      "name": "Henry Rodriguez",
+      "subject": "History",
+      "score": 58,
+      "trend_7d": [
+        54,
+        53,
+        55,
+        58,
+        61,
+        70,
+        75
+      ],
+      "kpis": {
+        "avg_rating": 3.31,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0714,
+        "reschedule_rate": 0.0714,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 25
+    },
+    {
+      "tutor_id": "T180",
+      "name": "Liam Martin",
+      "subject": "English",
+      "score": 58,
+      "trend_7d": [
+        54,
+        53,
+        50,
+        65,
+        60,
+        75,
+        65
+      ],
+      "kpis": {
+        "avg_rating": 3.76,
+        "dropout_rate": 0.1579,
+        "tech_issue_rate": 0.0526,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 31.3
+    },
+    {
+      "tutor_id": "T148",
+      "name": "Zoey Wright",
+      "subject": "Computer Science",
+      "score": 59,
+      "trend_7d": [
+        60,
+        67,
+        73,
+        73,
+        67,
+        67,
+        70
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 25
+    },
+    {
+      "tutor_id": "T174",
+      "name": "Caleb Lewis",
+      "subject": "English",
+      "score": 59,
+      "trend_7d": [
+        96,
+        96,
+        75,
+        63,
+        51,
+        65,
+        67
+      ],
+      "kpis": {
+        "avg_rating": 3.88,
+        "dropout_rate": 0.0556,
+        "tech_issue_rate": 0.0556,
+        "reschedule_rate": 0.0556,
+        "sessions_count": 18,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 37.2
+    },
+    {
+      "tutor_id": "T194",
+      "name": "Emma Thomas",
+      "subject": "Language Arts",
+      "score": 59,
+      "trend_7d": [
+        88,
+        91,
+        86,
+        78,
+        70,
+        72,
+        72
+      ],
+      "kpis": {
+        "avg_rating": 4.5,
+        "dropout_rate": 0.0833,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 38.3
+    },
+    {
+      "tutor_id": "T011",
+      "name": "Emma Young",
+      "subject": "English",
+      "score": 60,
+      "trend_7d": [
+        63,
+        66,
+        55,
+        54,
+        56,
+        66,
+        70
+      ],
+      "kpis": {
+        "avg_rating": 3.8,
+        "dropout_rate": 0.1852,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.037,
+        "sessions_count": 27,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28.4
+    },
+    {
+      "tutor_id": "T065",
+      "name": "Luna Johnson",
+      "subject": "English",
+      "score": 60,
+      "trend_7d": [
+        70,
+        79,
+        91,
+        96,
+        80,
+        64,
+        48
+      ],
+      "kpis": {
+        "avg_rating": 4.2,
+        "dropout_rate": 0.0667,
+        "tech_issue_rate": 0.1333,
+        "reschedule_rate": 0.1333,
+        "sessions_count": 15,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 33.7
+    },
+    {
+      "tutor_id": "T099",
+      "name": "Isabella Robinson",
+      "subject": "Math",
+      "score": 60,
+      "trend_7d": [
+        62,
+        63,
+        69,
+        70,
+        69,
+        71,
+        73
+      ],
+      "kpis": {
+        "avg_rating": 4.36,
+        "dropout_rate": 0.1429,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 14,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0714
+      },
+      "churn_risk": 28.9
+    },
+    {
+      "tutor_id": "T106",
+      "name": "Chloe Thomas",
+      "subject": "History",
+      "score": 60,
+      "trend_7d": [
+        40,
+        40,
+        53,
+        72,
+        91,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.0714,
+        "tech_issue_rate": 0.0714,
+        "reschedule_rate": 0.0714,
+        "sessions_count": 14,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 23.9
+    },
+    {
+      "tutor_id": "T181",
+      "name": "Isabella Walker",
+      "subject": "Math",
+      "score": 60,
+      "trend_7d": [
+        60,
+        60,
+        70,
+        82,
+        94,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0.1818,
+        "sessions_count": 11,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21
+    },
+    {
+      "tutor_id": "T007",
+      "name": "Benjamin Lewis",
+      "subject": "Computer Science",
+      "score": 61,
+      "trend_7d": [
+        66,
+        76,
+        62,
+        71,
+        71,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.2,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1,
+        "sessions_count": 10,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 29
+    },
+    {
+      "tutor_id": "T009",
+      "name": "Sophia Robinson",
+      "subject": "Language Arts",
+      "score": 61,
+      "trend_7d": [
+        80,
+        75,
+        69,
+        64,
+        65,
+        72,
+        76
+      ],
+      "kpis": {
+        "avg_rating": 4.5,
+        "dropout_rate": 0.2857,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0714,
+        "sessions_count": 14,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 35.4
+    },
+    {
+      "tutor_id": "T014",
+      "name": "Benjamin Garcia",
+      "subject": "Math",
+      "score": 61,
+      "trend_7d": [
+        53,
+        55,
+        72,
+        79,
+        85,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.0625,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 23.5
+    },
+    {
+      "tutor_id": "T021",
+      "name": "Isabella Robinson",
+      "subject": "Math",
+      "score": 61,
+      "trend_7d": [
+        61,
+        67,
+        82,
+        84,
+        86,
+        86,
+        86
+      ],
+      "kpis": {
+        "avg_rating": 3.92,
+        "dropout_rate": 0.1333,
+        "tech_issue_rate": 0.0667,
+        "reschedule_rate": 0.0667,
+        "sessions_count": 15,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 26.3
+    },
+    {
+      "tutor_id": "T043",
+      "name": "Layla Walker",
+      "subject": "Test Prep",
+      "score": 61,
+      "trend_7d": [
+        71,
+        74,
+        80,
+        76,
+        67,
+        72,
+        75
+      ],
+      "kpis": {
+        "avg_rating": 3.79,
+        "dropout_rate": 0.0667,
+        "tech_issue_rate": 0.0667,
+        "reschedule_rate": 0.1333,
+        "sessions_count": 15,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 26.7
+    },
+    {
+      "tutor_id": "T102",
+      "name": "Sophia Adams",
+      "subject": "Language Arts",
+      "score": 61,
+      "trend_7d": [
+        38,
+        45,
+        60,
+        78,
+        84,
+        78,
+        78
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0952,
+        "reschedule_rate": 0.0952,
+        "sessions_count": 21,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21
+    },
+    {
+      "tutor_id": "T103",
+      "name": "Scarlett Young",
+      "subject": "English",
+      "score": 61,
+      "trend_7d": [
+        20,
+        37,
+        62,
+        87,
+        84,
+        73,
+        61
+      ],
+      "kpis": {
+        "avg_rating": 3.6,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1875,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21
+    },
+    {
+      "tutor_id": "T113",
+      "name": "Henry Hall",
+      "subject": "Computer Science",
+      "score": 61,
+      "trend_7d": [
+        88,
+        80,
+        70,
+        75,
+        85,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 4.07,
+        "dropout_rate": 0.1875,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1875,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28.5
+    },
+    {
+      "tutor_id": "T018",
+      "name": "Avery Torres",
+      "subject": "Math",
+      "score": 62,
+      "trend_7d": [
+        96,
+        96,
+        96,
+        84,
+        79,
+        73,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 4.1,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0769,
+        "reschedule_rate": 0.1538,
+        "sessions_count": 13,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 31
+    },
+    {
+      "tutor_id": "T022",
+      "name": "Benjamin Hill",
+      "subject": "Math",
+      "score": 62,
+      "trend_7d": [
+        78,
+        72,
+        60,
+        47,
+        44,
+        41,
+        52
+      ],
+      "kpis": {
+        "avg_rating": 3.69,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0625,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 31
+    },
+    {
+      "tutor_id": "T052",
+      "name": "Isabella Lewis",
+      "subject": "Math",
+      "score": 62,
+      "trend_7d": [
+        31,
+        31,
+        31,
+        31,
+        42,
+        59,
+        73
+      ],
+      "kpis": {
+        "avg_rating": 4.43,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0.2222,
+        "reschedule_rate": 0.1111,
+        "sessions_count": 9,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 25.4
+    },
+    {
+      "tutor_id": "T141",
+      "name": "Logan Young",
+      "subject": "Test Prep",
+      "score": 62,
+      "trend_7d": [
+        59,
+        68,
+        65,
+        77,
+        65,
+        69,
+        73
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.125,
+        "tech_issue_rate": 0.0625,
+        "reschedule_rate": 0.0625,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 26
+    },
+    {
+      "tutor_id": "T155",
+      "name": "Emma Green",
+      "subject": "History",
+      "score": 62,
+      "trend_7d": [
+        79,
+        85,
+        96,
+        91,
+        80,
+        77,
+        76
+      ],
+      "kpis": {
+        "avg_rating": 4.23,
+        "dropout_rate": 0.0625,
+        "tech_issue_rate": 0.1875,
+        "reschedule_rate": 0.1875,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0625
+      },
+      "churn_risk": 28.4
+    },
+    {
+      "tutor_id": "T160",
+      "name": "Lucas Harris",
+      "subject": "English",
+      "score": 62,
+      "trend_7d": [
+        44,
+        49,
+        62,
+        58,
+        54,
+        64,
+        72
+      ],
+      "kpis": {
+        "avg_rating": 3.92,
+        "dropout_rate": 0.0769,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.2308,
+        "sessions_count": 13,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 24.1
+    },
+    {
+      "tutor_id": "T046",
+      "name": "Noah Nguyen",
+      "subject": "English",
+      "score": 63,
+      "trend_7d": [
+        88,
+        91,
+        87,
+        87,
+        82,
+        81,
+        73
+      ],
+      "kpis": {
+        "avg_rating": 4.09,
+        "dropout_rate": 0.0909,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0909,
+        "sessions_count": 22,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0.5,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21.6
+    },
+    {
+      "tutor_id": "T054",
+      "name": "Avery Harris",
+      "subject": "History",
+      "score": 63,
+      "trend_7d": [
+        73,
+        66,
+        76,
+        70,
+        78,
+        82,
+        84
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.0556,
+        "tech_issue_rate": 0.0556,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 18,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 23.2
+    },
+    {
+      "tutor_id": "T084",
+      "name": "Zoey Allen",
+      "subject": "Language Arts",
+      "score": 63,
+      "trend_7d": [
+        87,
+        78,
+        67,
+        71,
+        80,
+        90,
+        90
+      ],
+      "kpis": {
+        "avg_rating": 4.1,
+        "dropout_rate": 0.1,
+        "tech_issue_rate": 0.15,
+        "reschedule_rate": 0.05,
+        "sessions_count": 20,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28
+    },
+    {
+      "tutor_id": "T090",
+      "name": "Ethan Torres",
+      "subject": "Science",
+      "score": 63,
+      "trend_7d": [
+        96,
+        96,
+        96,
+        96,
+        90,
+        87,
+        83
+      ],
+      "kpis": {
+        "avg_rating": 3.91,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28
+    },
+    {
+      "tutor_id": "T104",
+      "name": "Evelyn Hill",
+      "subject": "English",
+      "score": 63,
+      "trend_7d": [
+        87,
+        68,
+        49,
+        52,
+        71,
+        89,
+        86
+      ],
+      "kpis": {
+        "avg_rating": 4.25,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1538,
+        "reschedule_rate": 0.0769,
+        "sessions_count": 13,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 24
+    },
+    {
+      "tutor_id": "T126",
+      "name": "Ava Thomas",
+      "subject": "Computer Science",
+      "score": 63,
+      "trend_7d": [
+        73,
+        72,
+        63,
+        73,
+        69,
+        74,
+        72
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.0556,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0.1111,
+        "sessions_count": 18,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 26.2
+    },
+    {
+      "tutor_id": "T041",
+      "name": "Harper Martinez",
+      "subject": "Test Prep",
+      "score": 64,
+      "trend_7d": [
+        93,
+        92,
+        78,
+        67,
+        50,
+        64,
+        68
+      ],
+      "kpis": {
+        "avg_rating": 4.2,
+        "dropout_rate": 0.0625,
+        "tech_issue_rate": 0.0625,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 33.5
+    },
+    {
+      "tutor_id": "T042",
+      "name": "Evelyn King",
+      "subject": "Test Prep",
+      "score": 64,
+      "trend_7d": [
+        73,
+        67,
+        67,
+        82,
+        92,
+        88,
+        84
+      ],
+      "kpis": {
+        "avg_rating": 4.21,
+        "dropout_rate": 0.0952,
+        "tech_issue_rate": 0.0476,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 21,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0.0476
+      },
+      "churn_risk": 26.2
+    },
+    {
+      "tutor_id": "T124",
+      "name": "Sophia Lewis",
+      "subject": "History",
+      "score": 64,
+      "trend_7d": [
+        72,
+        80,
+        91,
+        91,
+        82,
+        70,
+        65
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.1053,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28.2
+    },
+    {
+      "tutor_id": "T144",
+      "name": "Caleb Hill",
+      "subject": "Science",
+      "score": 64,
+      "trend_7d": [
+        60,
+        49,
+        39,
+        28,
+        41,
+        61,
+        77
+      ],
+      "kpis": {
+        "avg_rating": 3.71,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1333,
+        "reschedule_rate": 0.1333,
+        "sessions_count": 15,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0.5,
+        "no_show_rate": 0
+      },
+      "churn_risk": 11
+    },
+    {
+      "tutor_id": "T168",
+      "name": "Zoey Harris",
+      "subject": "History",
+      "score": 64,
+      "trend_7d": [
+        64,
+        69,
+        75,
+        83,
+        78,
+        78,
+        72
+      ],
+      "kpis": {
+        "avg_rating": 4.15,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 14,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21
+    },
+    {
+      "tutor_id": "T028",
+      "name": "Henry Taylor",
+      "subject": "Test Prep",
+      "score": 65,
+      "trend_7d": [
+        51,
+        62,
+        61,
+        69,
+        60,
+        60,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 3.67,
+        "dropout_rate": 0.1765,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 17,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0588
+      },
+      "churn_risk": 9.8
+    },
+    {
+      "tutor_id": "T036",
+      "name": "Evelyn Scott",
+      "subject": "Language Arts",
+      "score": 65,
+      "trend_7d": [
+        80,
+        80,
+        73,
+        67,
+        60,
+        60,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 3.43,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0,
+        "sessions_count": 7,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 11
+    },
+    {
+      "tutor_id": "T051",
+      "name": "Alexander Torres",
+      "subject": "English",
+      "score": 65,
+      "trend_7d": [
+        41,
+        38,
+        36,
+        55,
+        75,
+        94,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 3.91,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.125,
+        "sessions_count": 24,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21
+    },
+    {
+      "tutor_id": "T008",
+      "name": "Zoey Nelson",
+      "subject": "Math",
+      "score": 66,
+      "trend_7d": [
+        55,
+        51,
+        51,
+        63,
+        75,
+        79,
+        79
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.0588,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0588,
+        "sessions_count": 17,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 23.4
+    },
+    {
+      "tutor_id": "T037",
+      "name": "Harper Nguyen",
+      "subject": "Science",
+      "score": 66,
+      "trend_7d": [
+        96,
+        96,
+        96,
+        89,
+        81,
+        73,
+        73
+      ],
+      "kpis": {
+        "avg_rating": 4.29,
+        "dropout_rate": 0.2143,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0,
+        "sessions_count": 14,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.1429
+      },
+      "churn_risk": 23.9
+    },
+    {
+      "tutor_id": "T048",
+      "name": "Noah Green",
+      "subject": "History",
+      "score": 66,
+      "trend_7d": [
+        73,
+        75,
+        70,
+        60,
+        50,
+        55,
+        58
+      ],
+      "kpis": {
+        "avg_rating": 3.73,
+        "dropout_rate": 0.0909,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0,
+        "sessions_count": 11,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0909
+      },
+      "churn_risk": 14.4
+    },
+    {
+      "tutor_id": "T070",
+      "name": "Chloe Green",
+      "subject": "Computer Science",
+      "score": 66,
+      "trend_7d": [
+        60,
+        67,
+        67,
+        85,
+        91,
+        90,
+        87
+      ],
+      "kpis": {
+        "avg_rating": 4.05,
+        "dropout_rate": 0.05,
+        "tech_issue_rate": 0.05,
+        "reschedule_rate": 0.05,
+        "sessions_count": 20,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 23
+    },
+    {
+      "tutor_id": "T076",
+      "name": "Ava Walker",
+      "subject": "English",
+      "score": 66,
+      "trend_7d": [
+        78,
+        72,
+        60,
+        67,
+        68,
+        69,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 4.21,
+        "dropout_rate": 0.1,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.15,
+        "sessions_count": 20,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 32
+    },
+    {
+      "tutor_id": "T120",
+      "name": "Elijah Wright",
+      "subject": "History",
+      "score": 66,
+      "trend_7d": [
+        96,
+        84,
+        84,
+        84,
+        88,
+        80,
+        72
+      ],
+      "kpis": {
+        "avg_rating": 4.54,
+        "dropout_rate": 0.1429,
+        "tech_issue_rate": 0.1429,
+        "reschedule_rate": 0.1429,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 36.7
+    },
+    {
+      "tutor_id": "T165",
+      "name": "Harper Brown",
+      "subject": "History",
+      "score": 66,
+      "trend_7d": [
+        70,
+        66,
+        73,
+        67,
+        63,
+        46,
+        46
+      ],
+      "kpis": {
+        "avg_rating": 4.42,
+        "dropout_rate": 0.0667,
+        "tech_issue_rate": 0.1333,
+        "reschedule_rate": 0.2,
+        "sessions_count": 15,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 33.7
+    },
+    {
+      "tutor_id": "T185",
+      "name": "Ethan Adams",
+      "subject": "Math",
+      "score": 66,
+      "trend_7d": [
+        92,
+        93,
+        81,
+        75,
+        70,
+        82,
+        89
+      ],
+      "kpis": {
+        "avg_rating": 4.28,
+        "dropout_rate": 0.1053,
+        "tech_issue_rate": 0.0526,
+        "reschedule_rate": 0.1053,
+        "sessions_count": 19,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 28.2
+    },
+    {
+      "tutor_id": "T063",
+      "name": "Sophia Harris",
+      "subject": "English",
+      "score": 67,
+      "trend_7d": [
+        64,
+        74,
+        73,
+        75,
+        64,
+        64,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 4.33,
+        "dropout_rate": 0.0625,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.125,
+        "sessions_count": 16,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 26.5
+    },
+    {
+      "tutor_id": "T071",
+      "name": "Scarlett Jackson",
+      "subject": "Science",
+      "score": 67,
+      "trend_7d": [
+        96,
+        88,
+        81,
+        73,
+        70,
+        67,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 4.3,
+        "dropout_rate": 0.0833,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 34.3
+    },
+    {
+      "tutor_id": "T108",
+      "name": "Olivia Hill",
+      "subject": "English",
+      "score": 67,
+      "trend_7d": [
+        67,
+        71,
+        76,
+        76,
+        71,
+        77,
+        82
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1,
+        "sessions_count": 10,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21
+    },
+    {
+      "tutor_id": "T125",
+      "name": "Mia Brown",
+      "subject": "English",
+      "score": 67,
+      "trend_7d": [
+        74,
+        81,
+        85,
+        85,
+        85,
+        75,
+        72
+      ],
+      "kpis": {
+        "avg_rating": 4.29,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0667,
+        "sessions_count": 15,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 24
+    },
+    {
+      "tutor_id": "T142",
+      "name": "Lucas Hall",
+      "subject": "Science",
+      "score": 67,
+      "trend_7d": [
+        67,
+        71,
+        81,
+        91,
+        67,
+        67,
+        52
+      ],
+      "kpis": {
+        "avg_rating": 4.33,
+        "dropout_rate": 0.0714,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.2143,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 30.9
+    },
+    {
+      "tutor_id": "T195",
+      "name": "Lucas Garcia",
+      "subject": "Language Arts",
+      "score": 67,
+      "trend_7d": [
+        60,
+        60,
+        61,
+        70,
+        79,
+        86,
+        86
+      ],
+      "kpis": {
+        "avg_rating": 4.38,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1333,
+        "sessions_count": 15,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 21
+    },
+    {
+      "tutor_id": "T140",
+      "name": "Scarlett Martinez",
+      "subject": "History",
+      "score": 68,
+      "trend_7d": [
+        78,
+        78,
+        79,
+        72,
+        65,
+        57,
+        57
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.3333,
+        "reschedule_rate": 0,
+        "sessions_count": 6,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 11
+    },
+    {
+      "tutor_id": "T186",
+      "name": "Emma Torres",
+      "subject": "Computer Science",
+      "score": 68,
+      "trend_7d": [
+        76,
+        77,
+        85,
+        75,
+        75,
+        80,
+        88
+      ],
+      "kpis": {
+        "avg_rating": 4.32,
+        "dropout_rate": 0.0909,
+        "tech_issue_rate": 0.0455,
+        "reschedule_rate": 0.0455,
+        "sessions_count": 22,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 24.6
+    },
+    {
+      "tutor_id": "T199",
+      "name": "Luna Williams",
+      "subject": "Test Prep",
+      "score": 68,
+      "trend_7d": [
+        71,
+        79,
+        88,
+        96,
+        85,
+        75,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 4.54,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.2143,
+        "sessions_count": 14,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 24
+    },
+    {
+      "tutor_id": "T095",
+      "name": "Luna Thomas",
+      "subject": "History",
+      "score": 69,
+      "trend_7d": [
+        83,
+        87,
+        85,
+        75,
+        64,
+        64,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 4.27,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.1667,
+        "sessions_count": 12,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 31
+    },
+    {
+      "tutor_id": "T156",
+      "name": "Olivia Martin",
+      "subject": "Math",
+      "score": 69,
+      "trend_7d": [
+        60,
+        56,
+        65,
+        81,
+        96,
+        88,
+        84
+      ],
+      "kpis": {
+        "avg_rating": 3.88,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 9,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 5.4
+    },
+    {
+      "tutor_id": "T163",
+      "name": "Zoey Scott",
+      "subject": "English",
+      "score": 69,
+      "trend_7d": [
+        55,
+        50,
+        40,
+        40,
+        53,
+        67,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.08,
+        "dropout_rate": 0.2308,
+        "tech_issue_rate": 0.0769,
+        "reschedule_rate": 0,
+        "sessions_count": 13,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 10.2
+    },
+    {
+      "tutor_id": "T025",
+      "name": "Sophia Wright",
+      "subject": "Science",
+      "score": 70,
+      "trend_7d": [
+        83,
+        87,
+        96,
+        96,
+        96,
+        85,
+        79
+      ],
+      "kpis": {
+        "avg_rating": 3.5,
+        "dropout_rate": 0.125,
+        "tech_issue_rate": 0.125,
+        "reschedule_rate": 0,
+        "sessions_count": 8,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 5
+    },
+    {
+      "tutor_id": "T109",
+      "name": "Evelyn Clark",
+      "subject": "History",
+      "score": 70,
+      "trend_7d": [
+        80,
+        85,
+        91,
+        77,
+        59,
+        47,
+        50
+      ],
+      "kpis": {
+        "avg_rating": 4.21,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0.0714,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 27
+    },
+    {
+      "tutor_id": "T118",
+      "name": "Mia Hall",
+      "subject": "English",
+      "score": 70,
+      "trend_7d": [
+        96,
+        91,
+        75,
+        75,
+        80,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 4.56,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1,
+        "reschedule_rate": 0.2,
+        "sessions_count": 10,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 20
+    },
+    {
+      "tutor_id": "T068",
+      "name": "Mia Wright",
+      "subject": "Science",
+      "score": 72,
+      "trend_7d": [
+        84,
+        79,
+        87,
+        82,
+        85,
+        82,
+        84
+      ],
+      "kpis": {
+        "avg_rating": 4.75,
+        "dropout_rate": 0.0833,
+        "tech_issue_rate": 0.0833,
+        "reschedule_rate": 0.0833,
+        "sessions_count": 12,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 1,
+        "no_show_rate": 0
+      },
+      "churn_risk": 23.3
+    },
+    {
+      "tutor_id": "T096",
+      "name": "Sophia Torres",
+      "subject": "Math",
+      "score": 72,
+      "trend_7d": [
+        72,
+        80,
+        88,
+        96,
+        96,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 3.6,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0,
+        "sessions_count": 9,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0
+    },
+    {
+      "tutor_id": "T005",
+      "name": "Evelyn Young",
+      "subject": "Science",
+      "score": 73,
+      "trend_7d": [
+        83,
+        79,
+        79,
+        87,
+        96,
+        89,
+        86
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.2778,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0.0556,
+        "sessions_count": 18,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 11.1
+    },
+    {
+      "tutor_id": "T075",
+      "name": "Caleb Lewis",
+      "subject": "Science",
+      "score": 73,
+      "trend_7d": [
+        81,
+        75,
+        65,
+        57,
+        62,
+        67,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.81,
+        "dropout_rate": 0.1905,
+        "tech_issue_rate": 0.0952,
+        "reschedule_rate": 0,
+        "sessions_count": 21,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0476
+      },
+      "churn_risk": 9
+    },
+    {
+      "tutor_id": "T062",
+      "name": "Chloe Johnson",
+      "subject": "Science",
+      "score": 74,
+      "trend_7d": [
+        60,
+        60,
+        60,
+        60,
+        67,
+        73,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.86,
+        "dropout_rate": 0.1111,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 9,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.1111
+      },
+      "churn_risk": 4.8
+    },
+    {
+      "tutor_id": "T166",
+      "name": "Avery Anderson",
+      "subject": "Math",
+      "score": 74,
+      "trend_7d": [
+        77,
+        78,
+        80,
+        80,
+        76,
+        69,
+        64
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.0909,
+        "reschedule_rate": 0,
+        "sessions_count": 11,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 4
+    },
+    {
+      "tutor_id": "T017",
+      "name": "Elijah Nelson",
+      "subject": "English",
+      "score": 77,
+      "trend_7d": [
+        65,
+        68,
+        80,
+        83,
+        85,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 3.83,
+        "dropout_rate": 0.0556,
+        "tech_issue_rate": 0.1667,
+        "reschedule_rate": 0,
+        "sessions_count": 18,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0
+    },
+    {
+      "tutor_id": "T159",
+      "name": "Scarlett Nguyen",
+      "subject": "Computer Science",
+      "score": 77,
+      "trend_7d": [
+        50,
+        58,
+        76,
+        88,
+        84,
+        72,
+        60
+      ],
+      "kpis": {
+        "avg_rating": 4.08,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 13,
+        "first_session_avg_rating": 3,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0
+    },
+    {
+      "tutor_id": "T187",
+      "name": "Liam Thompson",
+      "subject": "Language Arts",
+      "score": 77,
+      "trend_7d": [
+        96,
+        77,
+        72,
+        67,
+        85,
+        91,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 3.38,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0,
+        "sessions_count": 9,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0
+    },
+    {
+      "tutor_id": "T016",
+      "name": "Noah Adams",
+      "subject": "History",
+      "score": 79,
+      "trend_7d": [
+        70,
+        73,
+        73,
+        65,
+        70,
+        82,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 3.92,
+        "dropout_rate": 0.2143,
+        "tech_issue_rate": 0.0714,
+        "reschedule_rate": 0,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 5.6
+    },
+    {
+      "tutor_id": "T055",
+      "name": "Victoria Torres",
+      "subject": "Computer Science",
+      "score": 79,
+      "trend_7d": [
+        62,
+        67,
+        67,
+        66,
+        60,
+        72,
+        78
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0.1,
+        "tech_issue_rate": 0.2,
+        "reschedule_rate": 0,
+        "sessions_count": 10,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.1
+      },
+      "churn_risk": 4
+    },
+    {
+      "tutor_id": "T061",
+      "name": "Isabella Hill",
+      "subject": "Computer Science",
+      "score": 80,
+      "trend_7d": [
+        80,
+        74,
+        68,
+        62,
+        62,
+        73,
+        79
+      ],
+      "kpis": {
+        "avg_rating": 4.14,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.4286,
+        "reschedule_rate": 0,
+        "sessions_count": 7,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0
+    },
+    {
+      "tutor_id": "T047",
+      "name": "Luna Nguyen",
+      "subject": "English",
+      "score": 81,
+      "trend_7d": [
+        75,
+        77,
+        74,
+        86,
+        91,
+        91,
+        88
+      ],
+      "kpis": {
+        "avg_rating": 3.92,
+        "dropout_rate": 0.0769,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 13,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0.1
+    },
+    {
+      "tutor_id": "T154",
+      "name": "Caleb Lewis",
+      "subject": "Math",
+      "score": 81,
+      "trend_7d": [
+        81,
+        74,
+        77,
+        75,
+        80,
+        82,
+        86
+      ],
+      "kpis": {
+        "avg_rating": 3.71,
+        "dropout_rate": 0.0714,
+        "tech_issue_rate": 0.0714,
+        "reschedule_rate": 0,
+        "sessions_count": 14,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 2.9
+    },
+    {
+      "tutor_id": "T003",
+      "name": "Ava Walker",
+      "subject": "History",
+      "score": 83,
+      "trend_7d": [
+        82,
+        81,
+        78,
+        80,
+        80,
+        80,
+        80
+      ],
+      "kpis": {
+        "avg_rating": 4.06,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.1111,
+        "reschedule_rate": 0,
+        "sessions_count": 18,
+        "first_session_avg_rating": 4,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0
+    },
+    {
+      "tutor_id": "T132",
+      "name": "Ava Nelson",
+      "subject": "History",
+      "score": 83,
+      "trend_7d": [
+        57,
+        70,
+        74,
+        96,
+        96,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 4.2,
+        "dropout_rate": 0.1875,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0.0625
+      },
+      "churn_risk": 6.4
+    },
+    {
+      "tutor_id": "T002",
+      "name": "Julian Johnson",
+      "subject": "English",
+      "score": 84,
+      "trend_7d": [
+        84,
+        84,
+        84,
+        84,
+        84,
+        84,
+        84
+      ],
+      "kpis": {
+        "avg_rating": 4,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 2,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0
+    },
+    {
+      "tutor_id": "T024",
+      "name": "Noah Green",
+      "subject": "Science",
+      "score": 87,
+      "trend_7d": [
+        92,
+        93,
+        96,
+        96,
+        84,
+        78,
+        69
+      ],
+      "kpis": {
+        "avg_rating": 4.14,
+        "dropout_rate": 0,
+        "tech_issue_rate": 0.125,
+        "reschedule_rate": 0,
+        "sessions_count": 16,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 7
+    },
+    {
+      "tutor_id": "T127",
+      "name": "Isabella Taylor",
+      "subject": "English",
+      "score": 88,
+      "trend_7d": [
+        96,
+        95,
+        83,
+        80,
+        76,
+        88,
+        89
+      ],
+      "kpis": {
+        "avg_rating": 4.41,
+        "dropout_rate": 0.1,
+        "tech_issue_rate": 0.1,
+        "reschedule_rate": 0,
+        "sessions_count": 20,
+        "first_session_avg_rating": 5,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 4
+    },
+    {
+      "tutor_id": "T152",
+      "name": "Penelope Williams",
+      "subject": "Math",
+      "score": 88,
+      "trend_7d": [
+        75,
+        82,
+        84,
+        96,
+        96,
+        96,
+        96
+      ],
+      "kpis": {
+        "avg_rating": 4.33,
+        "dropout_rate": 0.0769,
+        "tech_issue_rate": 0,
+        "reschedule_rate": 0,
+        "sessions_count": 13,
+        "first_session_avg_rating": null,
+        "first_session_dropout_rate": 0,
+        "first_session_count": 1,
+        "tutor_initiated_reschedule_rate": 0,
+        "no_show_rate": 0
+      },
+      "churn_risk": 0.1
+    }
+  ]
+}
