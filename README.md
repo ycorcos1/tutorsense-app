@@ -626,13 +626,10 @@ Response: JSON with "why" and "suggested_action" fields
 
 ### Detailed Documentation
 
-For comprehensive AI implementation details, including:
+For comprehensive AI Log details, including:
 
 - Full prompt templates
 - Prompting strategies and rationale
-- Cost analysis and optimization
-- Model selection criteria
-- Fallback strategy details
 
 See: [`docs/AI_Log.md`](./docs/AI_Log.md)
 
