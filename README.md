@@ -337,6 +337,18 @@ Beyond the core requirements, TutorSense includes:
 - **Latest Score**: Most recent day's performance
 - Helps understand recent improvements vs. overall performance
 
+### 9. **AI-Powered Insights & Orchestration**
+
+- **Churn Prediction**: Machine learning model predicts churn probability (0-100%) with confidence scores
+- **Anomaly Detection**: Identifies tutors with unusual performance patterns using isolation forest algorithm
+- **Trend Forecasting**: Projects future scores (7-day and 14-day) with trajectory analysis (improving/declining/stable/volatile)
+- **Intervention Recommendations**: AI-generated prioritized interventions with effectiveness scores and effort estimates
+- **Persona Tagging**: Classifies tutors into behavioral personas (e.g., "Reliability Challenged", "Stabilizing Performer")
+- **Dynamic Threshold Optimization**: Automatically calibrates at-risk thresholds based on current data distribution
+- **AI Coaching Plan**: Structured, readable coaching playbook with priorities, roadmap, and next steps
+- **Feature Engineering**: Advanced feature extraction from tutor metrics for ML models
+- All AI insights displayed exclusively in the tutor detail drawer for focused analysis
+
 ---
 
 ## Scoring Formula
@@ -414,6 +426,7 @@ The TutorSense dashboard provides a comprehensive view of tutor performance with
 
 - **Last Updated**: Timestamp of most recent data generation
 - **Scoring Formula**: Active formula version (v1.0 or v2.0)
+- **Dynamic Thresholds**: AI-optimized thresholds displayed when available (score, dropout, no-show thresholds)
 
 #### Filter Controls
 
@@ -469,6 +482,22 @@ Click any tutor row to open detailed view:
 
 - Bulleted list of specific risk factors with metrics
 
+**AI Insights** (when available):
+
+- **Summary**: AI-generated overview of churn probability, forecast trajectory, anomaly level, and persona
+- **Persona Profile**: Behavioral classification with description, strengths, and risks
+- **Recommended Interventions**: Prioritized list of interventions with:
+  - Effectiveness percentage
+  - Effort level (low/medium/high)
+  - Detailed description and rationale
+- **AI Coaching Plan**: Collapsible section with structured coaching playbook including:
+  - Top priorities
+  - Intervention roadmap
+  - Forecast insights
+  - Persona guidance
+  - Next review schedule
+- **Dynamic Thresholds**: AI-optimized thresholds with calibration rationale
+
 **Performance Trend (7 days)**:
 
 - Detailed chart with:
@@ -485,13 +514,11 @@ Click any tutor row to open detailed view:
 
 **14-Day Daily Scores**:
 
-- Table showing daily breakdown of:
-  - Date
-  - Score
-  - Average Rating
-  - Dropout Rate
-  - Tech Issue Rate
-  - Reschedule Rate
+- Table showing daily breakdown with visual distinction:
+  - **No Sessions**: Gray background, "(No sessions)" badge, "—" for session count
+  - **Sessions with Dropouts**: Red background, dropout percentage badge, session count displayed
+  - **Active Sessions**: White background, normal display
+- Columns: Date, Score, Sessions
 
 ### Interpreting the Data
 
@@ -551,6 +578,15 @@ Click any tutor row to open detailed view:
 - **Why**: Cost-effective, fast, and reliable for structured explanations
 - **Use Case**: Generating personalized "why" and "suggested action" explanations
 - **Configuration**: JSON response format for structured output
+
+**AI Orchestration Layer**:
+
+- **Churn Prediction**: Logistic regression model trained on tutor features
+- **Anomaly Detection**: Isolation Forest algorithm for outlier identification
+- **Trend Forecasting**: Linear regression for score trajectory prediction
+- **Feature Engineering**: Automated feature extraction and normalization
+- **Pattern Recognition**: Clustering-based persona classification
+- **Threshold Optimization**: Percentile-based dynamic threshold calibration
 
 **Fallback Strategy**: Deterministic Templates
 
@@ -854,7 +890,7 @@ By end of 90 days:
 
 ### Does It Leverage AI in Sophisticated Ways?
 
-**Yes. TutorSense uses AI strategically:**
+**Yes. TutorSense uses AI strategically across multiple layers:**
 
 1. **Personalized Explanations**
 
@@ -863,29 +899,46 @@ By end of 90 days:
    - Incorporates tutor-specific metrics and trends
    - Provides actionable recommendations tailored to individual tutors
 
-2. **Intelligent Fallback Strategy**
+2. **Predictive Analytics**
+
+   - **Churn Prediction**: ML model predicts churn probability with confidence scores
+   - **Trend Forecasting**: Projects future performance trajectories (7-day and 14-day)
+   - **Anomaly Detection**: Identifies unusual patterns that may indicate emerging issues
+   - **Feature Engineering**: Automated extraction of predictive features from raw metrics
+
+3. **Intelligent Recommendations**
+
+   - **Intervention Prioritization**: AI ranks interventions by effectiveness and effort
+   - **Persona Classification**: Behavioral pattern recognition for targeted coaching
+   - **Dynamic Thresholds**: Self-calibrating thresholds based on current data distribution
+   - **Coaching Plans**: Structured, actionable playbooks generated from AI insights
+
+4. **Intelligent Fallback Strategy**
 
    - AI for at-risk tutors (where value is highest)
    - Templates for non-critical cases (cost optimization)
    - Seamless fallback ensures system reliability
 
-3. **Structured Output Generation**
+5. **Structured Output Generation**
 
    - JSON response format ensures consistency
    - Validates output structure
    - Handles edge cases gracefully
 
-4. **Cost-Effective Implementation**
+6. **Cost-Effective Implementation**
    - Selective AI usage (only where needed)
    - Concurrent processing for efficiency
    - Model selection optimized for cost/performance
+   - On-device ML models (no API calls for predictions)
 
 **Sophistication Level**:
 
+- **Multi-layered AI**: Combines LLM explanations with ML predictions and rule-based logic
 - **Not just AI for AI's sake**: AI is used where it adds real value
-- **Hybrid approach**: Combines AI with rule-based logic
+- **Hybrid approach**: Combines AI with rule-based logic for reliability
 - **Production-ready**: Handles errors, fallbacks, and edge cases
 - **Scalable**: Designed for real-world production use
+- **Self-optimizing**: Dynamic thresholds adapt to data distribution
 
 ### Clear Path to ROI Within 90 Days?
 

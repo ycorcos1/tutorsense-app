@@ -7,6 +7,7 @@ import AtRiskTable, {
   type Tutor,
 } from "@/components/AtRiskTable";
 import TutorDrawer from "@/components/TutorDrawer";
+import type { AiThresholdRecommendation } from "@/types/ai";
 
 export default function Page() {
   const [selectedTutor, setSelectedTutor] = useState<Tutor | null>(null);
@@ -16,6 +17,8 @@ export default function Page() {
   const [lastUpdated, setLastUpdated] = useState<string | null>(null);
   const [explanationsCount, setExplanationsCount] = useState<number>(0);
   const [formulaVersion, setFormulaVersion] = useState<string | null>(null);
+  const [aiThresholds, setAiThresholds] =
+    useState<AiThresholdRecommendation | null>(null);
 
   const handleSelectTutor = useCallback((tutor: Tutor) => {
     setSelectedTutor(tutor);
@@ -56,6 +59,7 @@ export default function Page() {
     setLastUpdated(meta.generatedAt || null);
     setExplanationsCount(meta.explanationsCount ?? 0);
     setFormulaVersion(meta.formulaVersion ?? null);
+    setAiThresholds(meta.thresholds ?? null);
   }, []);
 
   const formattedLastUpdated = useMemo(() => {
@@ -127,6 +131,13 @@ export default function Page() {
             Synthetic tutor performance dashboard showcasing at-risk tutors,
             explanations, and recent trends.
           </p>
+          {aiThresholds ? (
+            <p className="text-xs text-blue-600">
+              Dynamic thresholds (score ≤ {aiThresholds.scoreThreshold}, dropout
+              ≥ {aiThresholds.dropoutRateThreshold}%, no-show ≥{" "}
+              {aiThresholds.noShowRateThreshold}%).
+            </p>
+          ) : null}
         </header>
 
         <section className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

@@ -23,6 +23,9 @@ export default function PerformanceTrendChart({
 
   const chartData = useMemo(() => {
     if (!Array.isArray(normalizedData) || normalizedData.length === 0) {
+      const fallbackPadding = 40;
+      const fallbackChartWidth = Math.max(0, width - fallbackPadding * 2);
+      const fallbackChartHeight = Math.max(0, height - fallbackPadding * 2);
       return {
         points: [],
         min: 0,
@@ -31,6 +34,9 @@ export default function PerformanceTrendChart({
         startValue: 0,
         endValue: 0,
         trend: "stable" as const,
+        padding: fallbackPadding,
+        chartWidth: fallbackChartWidth,
+        chartHeight: fallbackChartHeight,
       };
     }
 

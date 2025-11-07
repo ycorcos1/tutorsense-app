@@ -8,6 +8,7 @@ import React, {
   useState,
 } from "react";
 import Sparkline from "./Sparkline";
+import type { TutorAiInsights, AiThresholdRecommendation } from "@/types/ai";
 
 type KPIs = {
   avg_rating: number | null;
@@ -35,12 +36,14 @@ export type Tutor = {
   trend_7d: number[];
   kpis: KPIs;
   churn_risk: number;
+  ai?: TutorAiInsights;
   explanation?: Explanation;
 };
 
 type ScoresResponse = {
   generated_at: string;
   formula_version?: string;
+  ai_thresholds?: AiThresholdRecommendation | null;
   tutors: Tutor[];
 };
 
@@ -48,6 +51,7 @@ export type AtRiskTableMeta = {
   generatedAt: string;
   explanationsCount: number;
   formulaVersion: string | null;
+  thresholds: AiThresholdRecommendation | null;
 };
 
 type AtRiskTableProps = {
@@ -213,6 +217,8 @@ export default function AtRiskTable({
   const [error, setError] = useState<string | null>(null);
   const [generatedAt, setGeneratedAt] = useState<string | null>(null);
   const [formulaVersion, setFormulaVersion] = useState<string | null>(null);
+  const [thresholds, setThresholds] =
+    useState<AiThresholdRecommendation | null>(null);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [itemsPerPage, setItemsPerPage] = useState<number>(25);
   const [sortBy, setSortBy] = useState<"score" | "churn_risk" | null>("score");
@@ -247,6 +253,7 @@ export default function AtRiskTable({
             ? data.formula_version
             : null
         );
+        setThresholds(data?.ai_thresholds ?? null);
       } catch (err) {
         if (!isMounted) {
           return;
@@ -283,18 +290,24 @@ export default function AtRiskTable({
       generatedAt,
       explanationsCount,
       formulaVersion,
+      thresholds,
     };
+
+    const thresholdsChanged =
+      JSON.stringify(metaRef.current?.thresholds) !==
+      JSON.stringify(meta.thresholds);
 
     if (
       !metaRef.current ||
       metaRef.current.generatedAt !== meta.generatedAt ||
       metaRef.current.explanationsCount !== meta.explanationsCount ||
-      metaRef.current.formulaVersion !== meta.formulaVersion
+      metaRef.current.formulaVersion !== meta.formulaVersion ||
+      thresholdsChanged
     ) {
       metaRef.current = meta;
       onLoaded(meta);
     }
-  }, [generatedAt, tutors, formulaVersion, onLoaded]);
+  }, [generatedAt, tutors, formulaVersion, thresholds, onLoaded]);
 
   const filteredTutors = useMemo(() => {
     if (!Array.isArray(tutors)) {
@@ -471,6 +484,17 @@ export default function AtRiskTable({
 
   return (
     <div className={containerClassName}>
+      {thresholds ? (
+        <div className="mb-3 rounded-md border border-blue-100 bg-blue-50 px-3 py-2 text-xs text-blue-700">
+          <p className="font-semibold">Dynamic thresholds</p>
+          <p>
+            Score ≤ {thresholds.scoreThreshold}, dropout ≥{" "}
+            {thresholds.dropoutRateThreshold}%, no-show ≥{" "}
+            {thresholds.noShowRateThreshold}%.
+          </p>
+          <p className="mt-1 text-[11px]">{thresholds.rationale}</p>
+        </div>
+      ) : null}
       <table className="min-w-[1024px] w-full border-collapse text-sm text-gray-700">
         <thead className="bg-gray-50 text-left text-xs font-semibold uppercase tracking-wide text-gray-600">
           <tr className="border-b border-gray-200">
@@ -552,7 +576,7 @@ export default function AtRiskTable({
                     {signals.length === 0 ? (
                       <span className="text-gray-400">—</span>
                     ) : (
-                      <div className="flex flex-wrap gap-1">
+                      <div className="flex flex-col gap-1">
                         {signals.map((signal) => (
                           <span
                             key={signal.key}

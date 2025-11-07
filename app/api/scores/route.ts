@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import type { TutorKpis } from "@/types/metrics";
+import type { TutorAiInsights, AiThresholdRecommendation } from "@/types/ai";
 
 export const revalidate = 0;
 
@@ -16,12 +17,14 @@ type Tutor = {
   trend_7d: number[];
   kpis: KPIs;
   churn_risk: number;
+  ai?: TutorAiInsights;
   explanation?: { why: string; suggested_action: string };
 };
 
 type ScoresFile = {
   generated_at: string;
   formula_version?: string;
+  ai_thresholds?: AiThresholdRecommendation;
   tutors: Tutor[];
 };
 
@@ -64,6 +67,7 @@ export async function GET(request: Request) {
     return NextResponse.json({
       generated_at: scores.generated_at,
       formula_version: scores.formula_version ?? "v1",
+      ai_thresholds: scores.ai_thresholds ?? null,
       tutors,
     });
   } catch (error) {

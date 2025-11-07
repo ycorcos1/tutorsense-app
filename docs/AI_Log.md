@@ -1937,3 +1937,61 @@ Ready to proceed to **Task 13: Nightly Recompute Job**
 - Validate cron execution after deployment
 
 ---
+
+## Task 7: Predictive AI Enhancements
+
+**Date:** November 2025  
+**Status:** ✅ Complete
+
+### Objective
+
+Expand TutorSense beyond deterministic scoring by adding predictive AI capabilities: churn probability modelling, anomaly detection, forecasting, intervention recommendation, persona clustering, and dynamic threshold calibration.
+
+### Implementation Steps
+
+1. **Feature Engineering Pipeline**
+   - Created `lib/ai/feature_engineering.ts` to build normalized tutor feature vectors (dropout, reschedule mix, trends, score velocity, etc.).
+   - Labels generated automatically (score < 60 or elevated historical churn).
+
+2. **Churn Risk Model**
+   - Implemented logistic regression training (`lib/ai/churn_predictor.ts`) with gradient descent and regularisation.
+   - Generates probability + confidence for each tutor.
+
+3. **Anomaly Detection**
+   - Added z-score based anomaly scoring (`lib/ai/anomaly_detector.ts`) with weighted KPI contributions.
+
+4. **Trend Forecasting**
+   - Delivered 7/14 day projections via linear regression (`lib/ai/trend_forecaster.ts`).
+   - Provides trajectory classification + confidence.
+
+5. **Intervention Recommender**
+   - Encoded library of targeted coaching plays (`lib/ai/intervention_recommender.ts`).
+   - Scores recommendations based on KPI pressure + forecast context; surfaces top 3.
+
+6. **Persona Recognition & Thresholds**
+   - Added persona clustering heuristics (`lib/ai/pattern_recognition.ts`).
+   - Dynamic threshold optimiser (`lib/ai/threshold_optimizer.ts`) calibrates score/dropout/no-show cut lines from distribution percentiles.
+
+7. **AI Orchestrator**
+   - Aggregated results in `lib/ai/ai_orchestrator.ts` returning `TutorAiInsights` (summary, interventions, coaching plan, thresholds, signals).
+   - Generated coaching plan text via `lib/ai/ai_content_generator.ts`.
+
+8. **Pipeline Integration**
+   - `scripts/score_tutors.ts` now invokes orchestrator, attaches `ai` insights per tutor, writes global `ai_thresholds`, and logs AI processing metrics.
+
+9. **API & UI Updates**
+   - `/api/scores` & `/api/tutor/[id]` expose AI data + dynamic thresholds.
+   - `AtRiskTable` shows AI summary column + threshold banner.
+   - `TutorDrawer` renders AI summary, persona, recommended interventions, coaching plan, and thresholds.
+   - Home page displays active thresholds for transparency.
+
+### Verification
+
+- `pnpm score` outputs each tutor with `ai` payload and `ai_thresholds` metadata.
+- Dashboard reflects AI summaries, interventions, and dynamic thresholds.
+- Tutor drawer reveals per-tutor AI diagnostics with coaching plan.
+
+### Follow-up
+
+- Future iteration: replace heuristic persona mapping with unsupervised clustering (e.g. k-means over richer feature set).
+- Evaluate adding historical intervention outcomes to refine recommendation scoring.

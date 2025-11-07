@@ -4,6 +4,7 @@ import path from "node:path";
 
 import type { AggregatedMetrics, TutorKpis } from "@/types/metrics";
 import type { SessionRecord, SessionStatus } from "@/types/session";
+import type { TutorAiInsights, AiThresholdRecommendation } from "@/types/ai";
 
 export const revalidate = 0;
 
@@ -20,11 +21,13 @@ type TutorSummary = {
   kpis: KPIs;
   churn_risk: number;
   formula_version?: string;
+  ai?: TutorAiInsights;
 };
 
 type ScoresFile = {
   generated_at: string;
   formula_version?: string;
+  ai_thresholds?: AiThresholdRecommendation;
   tutors: TutorSummary[];
 };
 
@@ -57,6 +60,8 @@ type TutorDetailsResponse = {
     kpis: KPIs;
     churn_risk: number;
   };
+  ai?: TutorAiInsights;
+  ai_thresholds?: AiThresholdRecommendation | null;
   explanation?: Explanation;
   days: DailyPoint[];
   generated_at: string;
@@ -174,6 +179,8 @@ export async function GET(_request: Request, { params }: Params) {
       kpis: summary.kpis,
       churn_risk: summary.churn_risk,
     },
+    ai: summary.ai,
+    ai_thresholds: scores.ai_thresholds ?? null,
     ...(explanation ? { explanation } : {}),
     days,
     generated_at: scores.generated_at,

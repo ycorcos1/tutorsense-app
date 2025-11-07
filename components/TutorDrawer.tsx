@@ -9,8 +9,10 @@ import React, {
 } from "react";
 import PerformanceTrendChart from "./PerformanceTrendChart";
 import type { Tutor } from "./AtRiskTable";
+import type { AiThresholdRecommendation } from "@/types/ai";
 
 type KPIs = Tutor["kpis"];
+type AiInsights = Tutor["ai"];
 
 type Explanation = NonNullable<Tutor["explanation"]>;
 
@@ -30,6 +32,8 @@ type TutorDetailResponse = {
     kpis: KPIs;
     churn_risk: number;
   };
+  ai?: AiInsights;
+  ai_thresholds?: AiThresholdRecommendation | null;
   explanation?: Explanation;
   days: TutorDay[];
   generated_at: string;
@@ -279,6 +283,26 @@ export default function TutorDrawer({
     detail?.summary?.churn_risk ?? selectedTutor?.churn_risk ?? null;
   const detailFormulaVersion = detail?.formula_version ?? null;
 
+  const aiInsights: AiInsights | null = useMemo(() => {
+    if (detail?.ai) {
+      return detail.ai;
+    }
+    return selectedTutor?.ai ?? null;
+  }, [detail?.ai, selectedTutor?.ai]);
+
+  const aiThresholds: AiThresholdRecommendation | null = useMemo(() => {
+    if (detail?.ai_thresholds) {
+      return detail.ai_thresholds;
+    }
+    if (detail?.ai?.thresholdRecommendation) {
+      return detail.ai.thresholdRecommendation;
+    }
+    if (selectedTutor?.ai?.thresholdRecommendation) {
+      return selectedTutor.ai.thresholdRecommendation;
+    }
+    return null;
+  }, [detail?.ai_thresholds, detail?.ai, selectedTutor?.ai]);
+
   const kpiItems = useMemo(() => {
     if (!summaryKPIs) {
       return [];
@@ -464,6 +488,12 @@ export default function TutorDrawer({
                       : detailFormulaVersion}
                   </p>
                 ) : null}
+                {aiInsights ? (
+                  <p className="text-xs text-indigo-600">
+                    AI churn {(aiInsights.churnProbability * 100).toFixed(0)}% ·
+                    Forecast {aiInsights.forecast.trajectory}
+                  </p>
+                ) : null}
               </div>
               <button
                 ref={closeButtonRef}
@@ -526,6 +556,211 @@ export default function TutorDrawer({
               )}
             </section>
 
+            {aiInsights ? (
+              <section className="space-y-4">
+                <h3 className="text-base font-semibold text-gray-900">
+                  AI Insights
+                </h3>
+                <div className="rounded-lg border border-indigo-200 bg-indigo-50 px-4 py-4 text-indigo-900">
+                  <p className="text-sm font-semibold">Summary</p>
+                  <p className="mt-1 text-sm">{aiInsights.summary}</p>
+                  <p className="mt-2 text-xs">
+                    Churn probability{" "}
+                    {(aiInsights.churnProbability * 100).toFixed(0)}% (
+                    {(aiInsights.churnConfidence * 100).toFixed(0)}% confidence)
+                    · Anomaly score {(aiInsights.anomalyScore * 100).toFixed(0)}
+                    %
+                  </p>
+                  <p className="mt-1 text-xs">
+                    {aiInsights.forecast.description} (confidence
+                    {(aiInsights.forecast.confidence * 100).toFixed(0)}%)
+                  </p>
+                </div>
+                {aiInsights.persona ? (
+                  <div className="rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm">
+                    <p className="text-sm font-semibold text-gray-900">
+                      Persona: {aiInsights.persona.label}
+                    </p>
+                    <p className="mt-1 text-sm text-gray-700">
+                      {aiInsights.persona.description}
+                    </p>
+                    <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-xs text-gray-500">
+                      <span>
+                        Strengths: {aiInsights.persona.strengths.join(", ")}
+                      </span>
+                      <span>Risks: {aiInsights.persona.risks.join(", ")}</span>
+                    </div>
+                  </div>
+                ) : null}
+                {aiInsights.interventions.length > 0 ? (
+                  <div className="space-y-2">
+                    <h4 className="text-sm font-semibold text-gray-900">
+                      Recommended interventions
+                    </h4>
+                    <ul className="space-y-2">
+                      {aiInsights.interventions.map((item) => (
+                        <li
+                          key={item.id}
+                          className="rounded-md border border-gray-200 bg-white px-3 py-2 text-sm text-gray-700 shadow-sm"
+                        >
+                          <div className="flex items-center justify-between gap-2">
+                            <span className="font-semibold text-gray-900">
+                              {item.title}
+                            </span>
+                            <span className="text-xs text-indigo-600">
+                              {(item.effectiveness * 100).toFixed(0)}% impact ·
+                              Effort {item.effort}
+                            </span>
+                          </div>
+                          <p className="mt-1">{item.description}</p>
+                          <p className="mt-1 text-xs text-gray-500">
+                            {item.rationale}
+                          </p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+                <details className="rounded-md border border-gray-200 bg-gray-50 px-4 py-3">
+                  <summary className="cursor-pointer font-semibold text-gray-900">
+                    AI Coaching Plan
+                  </summary>
+                  <div className="mt-4 space-y-4 text-sm text-gray-700">
+                    {/* Title */}
+                    <h4 className="text-base font-semibold text-gray-900">
+                      Coaching Playbook for {selectedTutor.name}
+                    </h4>
+
+                    {/* AI Summary */}
+                    <div className="rounded-md border border-indigo-100 bg-indigo-50 px-3 py-2">
+                      <p className="font-semibold text-indigo-900">
+                        AI Summary
+                      </p>
+                      <p className="mt-1 text-indigo-800">
+                        {aiInsights.summary}
+                      </p>
+                    </div>
+
+                    {/* Top Priorities */}
+                    <div>
+                      <p className="font-semibold text-gray-900">
+                        Top Priorities
+                      </p>
+                      <ul className="mt-2 list-disc space-y-1 pl-5">
+                        {aiInsights.signals.slice(0, 3).map((signal, index) => (
+                          <li key={index}>{signal}</li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Intervention Roadmap */}
+                    <div>
+                      <p className="font-semibold text-gray-900">
+                        Intervention Roadmap
+                      </p>
+                      <div className="mt-2 space-y-3">
+                        {aiInsights.interventions.map((intervention, index) => (
+                          <div
+                            key={intervention.id}
+                            className="rounded-md border border-gray-200 bg-white px-3 py-2"
+                          >
+                            <div className="flex items-start justify-between gap-2">
+                              <p className="font-semibold text-gray-900">
+                                {index + 1}. {intervention.title}
+                              </p>
+                            </div>
+                            <div className="mt-2 space-y-1 text-xs">
+                              <p>
+                                <span className="font-medium">
+                                  Effectiveness:
+                                </span>{" "}
+                                {(intervention.effectiveness * 100).toFixed(0)}%
+                              </p>
+                              <p>
+                                <span className="font-medium">Effort:</span>{" "}
+                                {intervention.effort}
+                              </p>
+                              <p>
+                                <span className="font-medium">Why:</span>{" "}
+                                {intervention.rationale}
+                              </p>
+                              <p>
+                                <span className="font-medium">Action:</span>{" "}
+                                {intervention.description}
+                              </p>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Forecast Insight */}
+                    <div className="rounded-md border border-blue-100 bg-blue-50 px-3 py-2">
+                      <p className="font-semibold text-blue-900">
+                        Forecast Insight
+                      </p>
+                      <p className="mt-1 text-blue-800">
+                        {aiInsights.forecast.description}
+                      </p>
+                      <p className="mt-1 text-xs text-blue-700">
+                        Confidence:{" "}
+                        {(aiInsights.forecast.confidence * 100).toFixed(0)}%
+                      </p>
+                    </div>
+
+                    {/* Persona Guidance */}
+                    {aiInsights.persona && (
+                      <div>
+                        <p className="font-semibold text-gray-900">
+                          Persona Guidance
+                        </p>
+                        <div className="mt-2 rounded-md border border-gray-200 bg-white px-3 py-2">
+                          <p>
+                            <span className="font-medium">Profile:</span>{" "}
+                            {aiInsights.persona.label}
+                          </p>
+                          <p className="mt-1">
+                            <span className="font-medium">Description:</span>{" "}
+                            {aiInsights.persona.description}
+                          </p>
+                          <p className="mt-1">
+                            <span className="font-medium">Strengths:</span>{" "}
+                            {aiInsights.persona.strengths.join(", ")}
+                          </p>
+                          <p className="mt-1">
+                            <span className="font-medium">Risks:</span>{" "}
+                            {aiInsights.persona.risks.join(", ")}
+                          </p>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Next Review */}
+                    <div className="rounded-md border border-amber-100 bg-amber-50 px-3 py-2">
+                      <p className="font-semibold text-amber-900">
+                        Next Review
+                      </p>
+                      <p className="mt-1 text-amber-800">
+                        Schedule follow-up in 7 days to review forecast accuracy
+                        and intervention progress.
+                      </p>
+                    </div>
+                  </div>
+                </details>
+                {aiThresholds ? (
+                  <div className="rounded-md border border-blue-100 bg-blue-50 px-3 py-2 text-xs text-blue-700">
+                    <p>
+                      <strong>Dynamic thresholds:</strong> Score ≤{" "}
+                      {aiThresholds.scoreThreshold}, dropout ≥{" "}
+                      {aiThresholds.dropoutRateThreshold}%, no-show ≥{" "}
+                      {aiThresholds.noShowRateThreshold}%.
+                    </p>
+                    <p className="mt-1">{aiThresholds.rationale}</p>
+                  </div>
+                ) : null}
+              </section>
+            ) : null}
+
             <section className="space-y-4">
               <div>
                 <h3 className="text-base font-semibold text-gray-900">
@@ -562,22 +797,56 @@ export default function TutorDrawer({
                       </tr>
                     </thead>
                     <tbody>
-                      {dailySeries.map((day) => (
-                        <tr
-                          key={day.date}
-                          className="border-b border-gray-100 last:border-0"
-                        >
-                          <td className="px-4 py-2 text-gray-600">
-                            {formatDate(day.date)}
-                          </td>
-                          <td className="px-4 py-2 text-gray-700">
-                            {day.score}
-                          </td>
-                          <td className="px-4 py-2 text-gray-700">
-                            {formatNumber(day.kpis.sessions_count)}
-                          </td>
-                        </tr>
-                      ))}
+                      {dailySeries.map((day) => {
+                        const hasSessions = day.kpis.sessions_count > 0;
+                        const hasDropouts = day.kpis.dropout_rate > 0;
+
+                        // Determine row styling
+                        let rowClass = "border-b border-gray-100 last:border-0";
+                        let statusBadge = null;
+
+                        if (!hasSessions) {
+                          // No sessions - muted gray background
+                          rowClass += " bg-gray-50";
+                          statusBadge = (
+                            <span className="ml-2 text-xs text-gray-500 italic">
+                              (No sessions)
+                            </span>
+                          );
+                        } else if (hasDropouts) {
+                          // Sessions with dropouts - light red background
+                          rowClass += " bg-red-50";
+                          statusBadge = (
+                            <span className="ml-2 inline-flex items-center rounded-full bg-red-100 px-2 py-0.5 text-xs font-medium text-red-800">
+                              {Math.round(day.kpis.dropout_rate * 100)}% dropout
+                            </span>
+                          );
+                        } else {
+                          // Sessions without dropouts - normal
+                          rowClass += " bg-white";
+                        }
+
+                        return (
+                          <tr key={day.date} className={rowClass}>
+                            <td className="px-4 py-2 text-gray-600">
+                              {formatDate(day.date)}
+                            </td>
+                            <td className="px-4 py-2 text-gray-700">
+                              {day.score}
+                              {statusBadge}
+                            </td>
+                            <td className="px-4 py-2 text-gray-700">
+                              {hasSessions ? (
+                                <span className="font-medium">
+                                  {formatNumber(day.kpis.sessions_count)}
+                                </span>
+                              ) : (
+                                <span className="text-gray-400 italic">—</span>
+                              )}
+                            </td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                   </table>
                 </div>

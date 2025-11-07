@@ -11,6 +11,12 @@ import type {
   SessionStatus,
   TutorRecord,
 } from "../types/session";
+import type {
+  TutorAiInsights,
+  TutorFeatureInput,
+  AiThresholdRecommendation,
+} from "../types/ai";
+import { generateAiInsights } from "../lib/ai/ai_orchestrator.ts";
 
 type ScoreFormulaVersion = "v1" | "v2";
 
@@ -25,6 +31,7 @@ interface TutorOutput {
   trend_7d: number[];
   kpis: TutorKpis;
   churn_risk: number; // percentage 0-100
+  ai?: TutorAiInsights;
 }
 
 interface Explanation {
@@ -72,6 +79,8 @@ export interface PipelineSummary {
   invalidSessionRows: number;
   orphanedSessions: number;
   topAtRisk: TopAtRiskEntry[];
+  aiProcessingMs: number;
+  aiThresholds: AiThresholdRecommendation;
 }
 
 interface RunOptions {
@@ -146,6 +155,27 @@ export async function runScoringPipeline(
     (a, b) => a.score - b.score || a.tutor_id.localeCompare(b.tutor_id)
   );
 
+  const featureInputs: TutorFeatureInput[] = tutorOutputs.map((tutor) => ({
+    tutor_id: tutor.tutor_id,
+    name: tutor.name,
+    subject: tutor.subject,
+    score: tutor.score,
+    trend_7d: tutor.trend_7d,
+    churn_risk: tutor.churn_risk,
+    kpis: tutor.kpis,
+  }));
+
+  const aiStart = Date.now();
+  const { insights: aiInsights, thresholdSummary } =
+    generateAiInsights(featureInputs);
+  for (const tutor of tutorOutputs) {
+    const aiInsight = aiInsights.get(tutor.tutor_id);
+    if (aiInsight) {
+      tutor.ai = aiInsight;
+    }
+  }
+  const aiDurationMs = Date.now() - aiStart;
+
   const generatedAt = new Date().toISOString();
   const atRiskTutors = selectAtRiskTutors(tutorOutputs);
 
@@ -163,6 +193,7 @@ export async function runScoringPipeline(
   const output = {
     generated_at: generatedAt,
     formula_version: formulaVersion,
+    ai_thresholds: thresholdSummary,
     tutors: tutorOutputs,
   };
 
@@ -191,6 +222,8 @@ export async function runScoringPipeline(
     invalidSessionRows,
     orphanedSessions,
     topAtRisk,
+    aiProcessingMs: aiDurationMs,
+    aiThresholds: thresholdSummary,
   };
 }
 
@@ -207,6 +240,8 @@ export async function run(options: RunOptions = {}): Promise<void> {
           duration_ms: summary.durationMs,
           explanations_generated: summary.explanationsGenerated,
           formula_version: summary.formulaVersion,
+          ai_processing_ms: summary.aiProcessingMs,
+          ai_thresholds: summary.aiThresholds,
           top_at_risk: summary.topAtRisk,
         },
         null,
@@ -233,6 +268,11 @@ export async function run(options: RunOptions = {}): Promise<void> {
       }, estimated_cost=$${estimatedCost.toFixed(2)}`
     );
   }
+
+  console.log(`AI insights processing: ${summary.aiProcessingMs}ms`);
+  console.log(
+    `Dynamic thresholds => score P35 ≤ ${summary.aiThresholds.scoreThreshold}, dropout P70 ≥ ${summary.aiThresholds.dropoutRateThreshold}%, no-show P70 ≥ ${summary.aiThresholds.noShowRateThreshold}%.`
+  );
 
   console.log(
     `Scored ${summary.processed} tutor${
